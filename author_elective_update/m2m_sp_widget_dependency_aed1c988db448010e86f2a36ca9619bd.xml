@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="angular-truncate">09e1f1416712220023c82e08f585ef1e</sp_dependency>
+        <sp_widget display_value="Copy of Header Menu">aad1c988db448010e86f2a36ca9619bb</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 15:46:10</sys_created_on>
+        <sys_id>aed1c988db448010e86f2a36ca9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular-truncate.Copy of Header Menu</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_aed1c988db448010e86f2a36ca9619bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 15:46:10</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>m2m_sp_widget_dependency_aed1c988db448010e86f2a36ca9619bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="angular-truncate">09e1f1416712220023c82e08f585ef1e</sp_dependency><sp_widget display_value="Copy of Header Menu">aad1c988db448010e86f2a36ca9619bb</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-17 15:46:10</sys_created_on><sys_id>aed1c988db448010e86f2a36ca9619bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>angular-truncate.Copy of Header Menu</sys_name><sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package><sys_policy/><sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope><sys_update_name>m2m_sp_widget_dependency_aed1c988db448010e86f2a36ca9619bd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-17 15:46:10</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>1399549253</payload_hash>
+        <record_name>angular-truncate.Copy of Header Menu</record_name>
+        <reverted_from/>
+        <source>ff4a5b6fdb737300e86f2a36ca9619b4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 15:46:10</sys_created_on>
+        <sys_id>e2d1c988db448010e86f2a36ca9619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d3fe70f170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 15:46:10</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>2ed1c988fa4480103ff57b522a605fbf</update_guid>
+        <update_guid_history>2ed1c988fa4480103ff57b522a605fbf:1399549253</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="angular-truncate.Copy of Header Menu">e573090cdb448010e86f2a36ca9619fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 15:53:12</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>1309966881b941009649532ec6365240</sys_id>
+        <sys_metadata>aed1c988db448010e86f2a36ca9619bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular-truncate.Copy of Header Menu</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_scope_delete display_value="">7b2dd6acb1604e11adaecc154cd04419</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_aed1c988db448010e86f2a36ca9619bd</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_aed1c988db448010e86f2a36ca9619bd">e2d1c988db448010e86f2a36ca9619c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 15:53:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Realistate Catalog Calculator">0b016a18db08c010e86f2a36ca9619a4</sc_cat_item>
+        <sc_category display_value="Taxes &amp; Fees">7bc4d1d4db04c010e86f2a36ca961975</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-18 17:25:13</sys_created_on>
+        <sys_id>93126698db08c010e86f2a36ca9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Taxes &amp; Fees.Realistate Catalog Calculator</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sc_cat_item_category_93126698db08c010e86f2a36ca9619fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-18 17:25:13</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sc_cat_item_category_93126698db08c010e86f2a36ca9619fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Realistate Catalog Calculator">0b016a18db08c010e86f2a36ca9619a4</sc_cat_item><sc_category display_value="Taxes &amp; Fees">7bc4d1d4db04c010e86f2a36ca961975</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-18 17:25:13</sys_created_on><sys_id>93126698db08c010e86f2a36ca9619fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Taxes &amp; Fees.Realistate Catalog Calculator</sys_name><sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package><sys_policy/><sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope><sys_update_name>sc_cat_item_category_93126698db08c010e86f2a36ca9619fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-18 17:25:13</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1374561455</payload_hash>
+        <record_name>Taxes &amp; Fees.Realistate Catalog Calculator</record_name>
+        <reverted_from/>
+        <source>82624b40db0c8010e86f2a36ca961937</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-18 17:25:13</sys_created_on>
+        <sys_id>5b126698db08c010e86f2a36ca9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d45681a8b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-18 17:25:13</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>931266987208c010dd99dfee28aaf4fd</update_guid>
+        <update_guid_history>931266987208c010dd99dfee28aaf4fd:-1374561455</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Taxes &amp; Fees.Realistate Catalog Calculator">dfd6ee9cdb08c010e86f2a36ca96199f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-18 17:45:59</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>7f40203455604d649524e19137891e10</sys_id>
+        <sys_metadata>93126698db08c010e86f2a36ca9619fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Taxes &amp; Fees.Realistate Catalog Calculator</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_parent display_value="">0b016a18db08c010e86f2a36ca9619a4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_scope_delete display_value="">7b2dd6acb1604e11adaecc154cd04419</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_93126698db08c010e86f2a36ca9619fb</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_93126698db08c010e86f2a36ca9619fb">5b126698db08c010e86f2a36ca9619fd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-18 17:45:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

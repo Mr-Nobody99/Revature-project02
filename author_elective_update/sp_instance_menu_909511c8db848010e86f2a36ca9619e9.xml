@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column/>
+        <sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 17:12:45</sys_created_on>
+        <sys_id>909511c8db848010e86f2a36ca9619e9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Hillsborough Header Menu</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sp_instance_menu_909511c8db848010e86f2a36ca9619e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 17:37:01</sys_updated_on>
+        <title>Hillsborough Header Menu</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="delete_multiple" query="documentkey=909511c8db848010e86f2a36ca9619e9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sp_instance_menu_909511c8db848010e86f2a36ca9619e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu"><sp_instance_menu action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column/><sp_widget display_value="Header Menu">5ef595c1cb12020000f8d856634c9c6e</sp_widget><sys_class_name>sp_instance_menu</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-17 17:12:45</sys_created_on><sys_id>909511c8db848010e86f2a36ca9619e9</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Hillsborough Header Menu</sys_name><sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package><sys_policy/><sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope><sys_update_name>sp_instance_menu_909511c8db848010e86f2a36ca9619e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-17 17:37:01</sys_updated_on><title>Hillsborough Header Menu</title><url/><widget_parameters/></sp_instance_menu><sys_translated_text action="delete_multiple" query="documentkey=909511c8db848010e86f2a36ca9619e9"/></record_update>]]></payload>
+        <payload_hash>-1222747812</payload_hash>
+        <record_name>Hillsborough Header Menu</record_name>
+        <reverted_from/>
+        <source>ff4a5b6fdb737300e86f2a36ca9619b4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 17:37:01</sys_created_on>
+        <sys_id>a63b1580dbc48010e86f2a36ca9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d404c8de20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 17:37:01</sys_updated_on>
+        <type>Instance with Menu</type>
+        <update_guid>223b158001c48010b3f396bf15607cc6</update_guid>
+        <update_guid_history>223b158001c48010b3f396bf15607cc6:-1222747812,a927154c5d848010c8ba19b6c9cced28:779071246,4fa5510c358480108059a9a91b9b2554:-1222747812</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hillsborough Header Menu">e6fd5144dbc48010e86f2a36ca961977</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 17:49:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_menu">sp_instance_menu</sys_db_object>
+        <sys_id>23174db40b3d4b7085c12ada08885710</sys_id>
+        <sys_metadata>909511c8db848010e86f2a36ca9619e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hillsborough Header Menu</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_scope_delete display_value="">7b2dd6acb1604e11adaecc154cd04419</sys_scope_delete>
+        <sys_update_name>sp_instance_menu_909511c8db848010e86f2a36ca9619e9</sys_update_name>
+        <sys_update_version display_value="sp_instance_menu_909511c8db848010e86f2a36ca9619e9">a63b1580dbc48010e86f2a36ca9619c6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 17:49:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

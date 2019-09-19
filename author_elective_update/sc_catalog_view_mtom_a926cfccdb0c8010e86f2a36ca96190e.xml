@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="DELETE">
+        <default>true</default>
+        <sc_catalog display_value="Hillsborough Catalog">3806434cdb0c8010e86f2a36ca96194c</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-18 01:24:11</sys_created_on>
+        <sys_id>a926cfccdb0c8010e86f2a36ca96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hillsborough Catalog.catalog_hillsborough_catalog</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_hillsborough_catalog">e126cfccdb0c8010e86f2a36ca96190d</sys_portal_page>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_a926cfccdb0c8010e86f2a36ca96190e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-18 01:24:11</sys_updated_on>
+    </sc_catalog_view_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sc_catalog_view_mtom_a926cfccdb0c8010e86f2a36ca96190e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom"><sc_catalog_view_mtom action="INSERT_OR_UPDATE"><default>true</default><sc_catalog display_value="Hillsborough Catalog">3806434cdb0c8010e86f2a36ca96194c</sc_catalog><sys_class_name>sc_catalog_view_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-18 01:24:11</sys_created_on><sys_id>a926cfccdb0c8010e86f2a36ca96190e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hillsborough Catalog.catalog_hillsborough_catalog</sys_name><sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package><sys_policy/><sys_portal_page display_value="catalog_hillsborough_catalog">e126cfccdb0c8010e86f2a36ca96190d</sys_portal_page><sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope><sys_update_name>sc_catalog_view_mtom_a926cfccdb0c8010e86f2a36ca96190e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-18 01:24:11</sys_updated_on></sc_catalog_view_mtom></record_update>]]></payload>
+        <payload_hash>-536783716</payload_hash>
+        <record_name>Hillsborough Catalog.catalog_hillsborough_catalog</record_name>
+        <reverted_from/>
+        <source>82624b40db0c8010e86f2a36ca961937</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-18 01:24:11</sys_created_on>
+        <sys_id>2d26cfccdb0c8010e86f2a36ca961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d41f83fc20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-18 01:24:11</sys_updated_on>
+        <type>Catalog Portal Page</type>
+        <update_guid>6526cfccb20c8010b4b92171a538e710</update_guid>
+        <update_guid_history>6526cfccb20c8010b4b92171a538e710:-536783716</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hillsborough Catalog.catalog_hillsborough_catalog">5ab60300db4c8010e86f2a36ca9619dc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-18 01:26:41</sys_created_on>
+        <sys_db_object display_value="" name="sc_catalog_view_mtom">sc_catalog_view_mtom</sys_db_object>
+        <sys_id>0226d6e9b4494fbab3b02d6bc9500204</sys_id>
+        <sys_metadata>a926cfccdb0c8010e86f2a36ca96190e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hillsborough Catalog.catalog_hillsborough_catalog</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_parent display_value="">3806434cdb0c8010e86f2a36ca96194c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_scope_delete display_value="">7b2dd6acb1604e11adaecc154cd04419</sys_scope_delete>
+        <sys_update_name>sc_catalog_view_mtom_a926cfccdb0c8010e86f2a36ca96190e</sys_update_name>
+        <sys_update_version display_value="sc_catalog_view_mtom_a926cfccdb0c8010e86f2a36ca96190e">2d26cfccdb0c8010e86f2a36ca961910</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-18 01:26:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

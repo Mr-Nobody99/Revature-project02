@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>sc</category>
+        <client_script><![CDATA[function($scope, $location) {
+	var c = this;
+	/*=============== Begin link handling ===============*/
+	$scope.onClick = function($event, item) {
+		var lp = getLinkParts(item);
+		if (typeof lp == "string")
+			return; // can't intercept/redirect external content item
+		
+		$event.stopPropagation();
+		$event.preventDefault();
+		var evt = {item: item, search: lp};
+
+		// This will let a wrapper widget intercept and redirect somewhere else
+		$scope.$emit($scope.options.click_event_name, evt);
+	};
+
+	function getLinkParts(item) {
+		if (item.sys_class_name == 'sc_cat_item_content' && item.content_type == 'external')
+			return item.url;
+
+		return {id: item.page, sys_id: item.sys_id};
+	}
+
+	$scope.getItemHREF = function(item) {
+		var lp = getLinkParts(item);
+		if (typeof lp == "string")
+			return lp;
+
+		return "?id=" + lp.id + "&sys_id=" + lp.sys_id;
+	}
+
+	var unregister = $rootScope.$on($scope.options.click_event_name, function($event, o) {
+		if ("url" in o)
+			$location.href = o.url;
+		else
+			$location.search(o.search);
+	});
+
+	$scope.$on("$destroy", function() {
+		unregister();
+	});
+	/*=============== End link handling ===============*/
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs display_value="Catalog Content">04bdcb60d731120023c84f80de6103b3</docs>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Copy of Catalog Content</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	var cat = $sp.getParameter('sc_catalog');
+	if (!cat)
+		cat = $sp.getValue("sc_catalog");  // portal catalog
+	var gr = new GlideRecord('sc_catalog');
+	gr.get(cat);
+	data.cat = cat;
+	data.title = gr.getDisplayValue("title");
+	data.categories = getCategories(cat);
+	data.items = getItems(cat);
+	data.sc_category_page = $sp.getDisplayValue("sc_category_page") || "sc_category";
+	addItemsToCategories(data.categories, data.items);
+
+	function getItems(cat) {
+		var gr = new GlideRecord('sc_cat_item');
+		gr.addQuery('sc_catalogs', cat);
+		gr.addQuery('sys_class_name', 'NOT IN', 'sc_cat_item_wizard');
+		gr.addEncodedQuery('hide_sp=false^ORhide_spISEMPTY');
+		gr.addActiveQuery();
+		gr.orderBy('order');
+		gr.orderBy('name');
+		gr.query();
+		var items = [];
+		while (gr.next()) {
+			var catalogItemJS = new sn_sc.CatItem(gr.getUniqueValue() + '');
+			
+			if (!catalogItemJS.canView())
+						continue;
+			
+			var catItemDetails = catalogItemJS.getItemSummary();
+
+			var item = {};
+			item.name = catItemDetails.name;
+			item.short_description = catItemDetails.short_description;
+			item.picture = catItemDetails.picture;
+			item.price = catItemDetails.price;
+			item.sys_id = catItemDetails.sys_id;
+			item.hasPrice = catItemDetails.show_price;
+			item.type = catItemDetails.type;
+			item.order = catItemDetails.order;
+			item.category = catItemDetails.category.sys_id;
+			item.sys_class_name = catItemDetails.sys_class_name;
+			
+			item.page = 'sc_cat_item';
+			
+			if (item.type == 'order_guide') {
+				item.page = 'sc_cat_item_guide';
+			} else if (item.type == 'content_item') {
+				item.content_type = catItemDetails.content_type;
+				item.url = catItemDetails.url;
+				if (item.content_type == 'kb') {
+					item.kb_article = catItemDetails.kb_article;
+					item.page = 'kb_article';
+					item.sys_id = item.kb_article;
+				} else if (item.content_type == 'external') {
+					item.target = '_blank';
+				}
+			}
+			items[catItemDetails.sys_id] = item;
+		}
+		return items;
+	}
+
+	function getCategories(cat) {
+		var gr = new GlideRecord('sc_category');
+		gr.addQuery('sc_catalog', cat);
+		gr.addActiveQuery();
+		gr.addQuery("sys_class_name", "sc_category");
+		gr.orderBy('title');
+		gr.query();
+		var cats = [];
+		while (gr.next()) {
+			var categoryJS = new sn_sc.CatCategory(gr.getUniqueValue() + '');
+			if (!categoryJS.canView())
+				continue;
+
+			var c = {};
+			$sp.getRecordValues(c,gr,'sys_id,title,parent');
+			cats.push(c);
+		}
+		return cats;
+	}
+
+	function addItemsToCategories(cats, itemDetails) {
+		cats.forEach(function(cat) {
+			cat.items = [];
+			var itemIDs = [];
+			itemIDs = new sn_sc.CatCategory(cat.sys_id + '').getItemIds();
+			itemIDs.forEach(function(itemID) {
+				if (itemDetails[itemID])
+					cat.items.push(itemDetails[itemID]);
+			});
+		});
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-18 17:18:50</sys_created_on>
+        <sys_id>f5a02618db08c010e86f2a36ca9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Catalog Content</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sp_widget_f5a02618db08c010e86f2a36ca9619a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-18 17:18:50</sys_updated_on>
+        <template><![CDATA[<div ng-repeat="c in ::data.categories" ng-if="::c.items.length">
+  <div class="h4"><a ng-href="?id={{::data.sc_category_page}}&sys_id={{::c.sys_id}}">{{::c.title}}</a></div>
+  <div class="row">
+    <div class="col-sm-6 col-md-4" ng-repeat="item in ::c.items">
+      <div class="panel panel-{{::options.color}} b">
+        <a target="{{::item.target}}" ng-href="{{::getItemHREF(item)}}" ng-click="onClick($event, item)" class="panel-body block">
+          <div class="overflow-100">
+            <h4 class="m-t-none m-b-xs">{{::item.name}}<span ng-if="item.content_type == 'external'" aria-label="${External Link}"> ➚</span></h4>
+            <img ng-src="{{::item.picture}}" ng-if="::item.picture" alt="{{::item.name}}" class="m-r-sm m-b-sm item-image pull-left" />
+            <div class="text-muted item-short-desc">{{::item.short_description}}</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

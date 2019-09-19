@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ng_template">
+    <sp_ng_template action="DELETE">
+        <id>menuItem</id>
+        <sp_widget display_value="Custom Header Menu">4ade9d44dbc48010e86f2a36ca96199b</sp_widget>
+        <sys_class_name>sp_ng_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 20:18:56</sys_created_on>
+        <sys_id>4f308e80db488010e86f2a36ca961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>menuItem</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sp_ng_template_4f308e80db488010e86f2a36ca961956</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 20:18:56</sys_updated_on>
+        <template/>
+    </sp_ng_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sp_ng_template_4f308e80db488010e86f2a36ca961956</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ng_template"><sp_ng_template action="INSERT_OR_UPDATE"><id>menuItem</id><sp_widget display_value="Custom Header Menu">4ade9d44dbc48010e86f2a36ca96199b</sp_widget><sys_class_name>sp_ng_template</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-17 20:18:56</sys_created_on><sys_id>4f308e80db488010e86f2a36ca961956</sys_id><sys_mod_count>0</sys_mod_count><sys_name>menuItem</sys_name><sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package><sys_policy/><sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope><sys_update_name>sp_ng_template_4f308e80db488010e86f2a36ca961956</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-17 20:18:56</sys_updated_on><template/></sp_ng_template></record_update>]]></payload>
+        <payload_hash>-182334313</payload_hash>
+        <record_name>menuItem</record_name>
+        <reverted_from/>
+        <source>ff4a5b6fdb737300e86f2a36ca9619b4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 20:18:56</sys_created_on>
+        <sys_id>8a404e80db488010e86f2a36ca961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d40e0c8c10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 20:18:56</sys_updated_on>
+        <type>Angular ng-template</type>
+        <update_guid>c2404e80104880106500d2b56096a124</update_guid>
+        <update_guid_history>c2404e80104880106500d2b56096a124:-182334313</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="menuItem">46504e80db488010e86f2a36ca961992</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-17 20:19:12</sys_created_on>
+        <sys_db_object display_value="" name="sp_ng_template">sp_ng_template</sys_db_object>
+        <sys_id>051d0d42daba4c6886f2b6c8592983c1</sys_id>
+        <sys_metadata>4f308e80db488010e86f2a36ca961956</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>menuItem</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_scope_delete display_value="">7b2dd6acb1604e11adaecc154cd04419</sys_scope_delete>
+        <sys_update_name>sp_ng_template_4f308e80db488010e86f2a36ca961956</sys_update_name>
+        <sys_update_version display_value="sp_ng_template_4f308e80db488010e86f2a36ca961956">8a404e80db488010e86f2a36ca961924</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-17 20:19:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
