@@ -3,7 +3,7 @@
         <css_variables/>
         <footer/>
         <footer_fixed>true</footer_fixed>
-        <header display_value="Hillsborough Header">629d95c0dbc48010e86f2a36ca9619e3</header>
+        <header display_value="HC Header">629d95c0dbc48010e86f2a36ca9619e3</header>
         <name>Hillsborough Theme</name>
         <navbar_fixed>true</navbar_fixed>
         <sys_class_name>sp_theme</sys_class_name>

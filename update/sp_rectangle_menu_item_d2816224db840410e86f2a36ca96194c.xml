@@ -13,26 +13,26 @@
         <kb_category/>
         <kb_topic/>
         <label>Tax Calculator</label>
-        <order>0</order>
+        <order>1</order>
         <record_script/>
         <sc_cat_item/>
         <sc_category/>
         <short_description/>
-        <sp_page display_value="announcements">ecc828d3e733320075c2a117c2f6a91f</sp_page>
+        <sp_page display_value="real_estate_tax_calculator">1f0838f8db8c0410e86f2a36ca961967</sp_page>
         <sp_rectangle_menu/>
         <sp_rectangle_menu_item display_value="Taxes &amp; fees">2c16bd08db088010e86f2a36ca961960</sp_rectangle_menu_item>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-19 12:01:30</sys_created_on>
         <sys_id>d2816224db840410e86f2a36ca96194c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Tax Calculator</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_d2816224db840410e86f2a36ca96194c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-19 20:38:22</sys_updated_on>
+        <sys_updated_on>2019-09-19 23:22:58</sys_updated_on>
         <table/>
         <type>page</type>
         <url/>

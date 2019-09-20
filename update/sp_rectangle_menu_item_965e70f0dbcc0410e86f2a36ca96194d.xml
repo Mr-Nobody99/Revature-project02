@@ -12,31 +12,31 @@
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <label>Item 2</label>
+        <label>Parks</label>
         <order>100</order>
         <record_script/>
         <sc_cat_item/>
         <sc_category/>
         <short_description/>
-        <sp_page/>
-        <sp_rectangle_menu display_value="HC Menu">ba2e9d04dbc48010e86f2a36ca96195d</sp_rectangle_menu>
-        <sp_rectangle_menu_item/>
+        <sp_page display_value="index">46cc384147532100ba13a5554ee49009</sp_page>
+        <sp_rectangle_menu/>
+        <sp_rectangle_menu_item display_value="Recreation &amp; Parks">021dfc70dbcc0410e86f2a36ca9619a5</sp_rectangle_menu_item>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-19 12:11:56</sys_created_on>
-        <sys_id>f5f36aa4db840410e86f2a36ca96190f</sys_id>
+        <sys_created_on>2019-09-19 23:26:56</sys_created_on>
+        <sys_id>965e70f0dbcc0410e86f2a36ca96194d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Item 2</sys_name>
+        <sys_name>Parks</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
-        <sys_update_name>sp_rectangle_menu_item_f5f36aa4db840410e86f2a36ca96190f</sys_update_name>
+        <sys_update_name>sp_rectangle_menu_item_965e70f0dbcc0410e86f2a36ca96194d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-19 12:11:56</sys_updated_on>
+        <sys_updated_on>2019-09-19 23:26:56</sys_updated_on>
         <table/>
-        <type>url</type>
+        <type>page</type>
         <url/>
         <url_target/>
     </sp_rectangle_menu_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=f5f36aa4db840410e86f2a36ca96190f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=965e70f0dbcc0410e86f2a36ca96194d"/>
 </record_update>

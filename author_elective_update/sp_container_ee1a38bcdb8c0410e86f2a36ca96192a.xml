@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>hc_home_page - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="hc_home">f1cd1363dbf37300e86f2a36ca961915</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-19 23:07:45</sys_created_on>
+        <sys_id>ee1a38bcdb8c0410e86f2a36ca96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hc_home_page - Container 1</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sp_container_ee1a38bcdb8c0410e86f2a36ca96192a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-19 23:07:45</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sp_container_ee1a38bcdb8c0410e86f2a36ca96192a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>hc_home_page - Container 1</name><order>1</order><sp_page display_value="hc_home">f1cd1363dbf37300e86f2a36ca961915</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-19 23:07:45</sys_created_on><sys_id>ee1a38bcdb8c0410e86f2a36ca96192a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>hc_home_page - Container 1</sys_name><sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package><sys_policy/><sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope><sys_update_name>sp_container_ee1a38bcdb8c0410e86f2a36ca96192a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-19 23:07:45</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1193262857</payload_hash>
+        <record_name>hc_home_page - Container 1</record_name>
+        <reverted_from/>
+        <source>96056034db4c0410e86f2a36ca9619c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-19 23:07:45</sys_created_on>
+        <sys_id>a61a38bcdb8c0410e86f2a36ca96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d4bc810520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-19 23:07:45</sys_updated_on>
+        <type>Container</type>
+        <update_guid>ee1a38bc708c041014179ca739620d2b</update_guid>
+        <update_guid_history>ee1a38bc708c041014179ca739620d2b:-1193262857</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="hc_home_page - Container 1">771a30bcdb8c0410e86f2a36ca9619e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-19 23:07:50</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>1125a8737029447685c174546d2bd764</sys_id>
+        <sys_metadata>ee1a38bcdb8c0410e86f2a36ca96192a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hc_home_page - Container 1</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_scope_delete display_value="">7b2dd6acb1604e11adaecc154cd04419</sys_scope_delete>
+        <sys_update_name>sp_container_ee1a38bcdb8c0410e86f2a36ca96192a</sys_update_name>
+        <sys_update_version display_value="sp_container_ee1a38bcdb8c0410e86f2a36ca96192a">a61a38bcdb8c0410e86f2a36ca96192c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-19 23:07:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
