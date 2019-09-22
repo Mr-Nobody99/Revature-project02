@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_gender" table="x_393226_project2_all_dogs" version="3">
+        <sys_choice_set action="DELETE">
+            <element>u_gender</element>
+            <name>x_393226_project2_all_dogs</name>
+            <sys_class_name/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on/>
+            <sys_id>abab936ddb000810e86f2a36ca96194d</sys_id>
+            <sys_mod_count/>
+            <sys_name>u_gender</sys_name>
+            <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+            <sys_update_name>sys_choice_x_393226_project2_all_dogs_u_gender</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-22 19:50:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_choice_x_393226_project2_all_dogs_u_gender</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="u_gender" table="x_393226_project2_all_dogs" version="3"><sys_choice_set action="DELETE"><element>u_gender</element><name>x_393226_project2_all_dogs</name><sys_class_name/><sys_created_by>admin</sys_created_by><sys_created_on/><sys_id>abab936ddb000810e86f2a36ca96194d</sys_id><sys_mod_count/><sys_name>u_gender</sys_name><sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package><sys_policy/><sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope><sys_update_name>sys_choice_x_393226_project2_all_dogs_u_gender</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-22 19:50:52</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-914509695</payload_hash>
+        <record_name>x_393226_project2_all_dogs.u_gender</record_name>
+        <reverted_from/>
+        <source>0abb9fa9db000810e86f2a36ca961980</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-22 19:50:52</sys_created_on>
+        <sys_id>ffc9ebe9db400810e86f2a36ca9619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d5a86e3470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-22 19:50:52</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>3bc9ebe9ce4008102d53ebbf82a880c2</update_guid>
+        <update_guid_history>3bc9ebe9ce4008102d53ebbf82a880c2:-914509695,f3c9ebe9e2400810308c2116ab7634bf:-801956159,e9bb576dc9000810e87f20434874ea21:-1885570072</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-22 19:51:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>8bd9232ddb400810e86f2a36ca961974</sys_id>
+        <sys_metadata>8bd9232ddb400810e86f2a36ca961974</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_gender</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_scope_delete display_value="">7b2dd6acb1604e11adaecc154cd04419</sys_scope_delete>
+        <sys_update_name>sys_choice_x_393226_project2_all_dogs_u_gender</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_393226_project2_all_dogs_u_gender">ffc9ebe9db400810e86f2a36ca9619c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-22 19:51:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
