@@ -15,11 +15,11 @@
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
-        <ignore_price>true</ignore_price>
+        <ignore_price>false</ignore_price>
         <image/>
         <list_price>0</list_price>
         <location/>
-        <mandatory_attachment>false</mandatory_attachment>
+        <mandatory_attachment>true</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
@@ -28,13 +28,13 @@
         <name>Type of License</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
-        <no_cart_v2>false</no_cart_v2>
+        <no_cart_v2>true</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
-        <no_quantity_v2>false</no_quantity_v2>
+        <no_quantity_v2>true</no_quantity_v2>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
@@ -45,26 +45,26 @@
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
-        <request_method/>
+        <request_method>request</request_method>
         <roles>snc_internal</roles>
         <sc_catalogs>827edc05db0000108062fe1b689619a0</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <short_description>Where all types of registration for licenses will be held.</short_description>
+        <short_description>You must attach in image of your dog to the post.</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-20 15:50:20</sys_created_on>
         <sys_id>6f7f9845db0000108062fe1b68961941</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Type of License</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sc_cat_item_6f7f9845db0000108062fe1b68961941</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-20 15:54:13</sys_updated_on>
+        <sys_updated_on>2019-09-22 18:32:13</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
