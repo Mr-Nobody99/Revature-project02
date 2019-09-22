@@ -6,27 +6,27 @@
         <css/>
         <glyph/>
         <id/>
-        <order>2</order>
+        <order>1</order>
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="2">3db2804ddb484410e86f2a36ca961950</sp_column>
-        <sp_widget display_value="Breakout Game">03b320a0cb01120000f8d856634c9cf0</sp_widget>
+        <sp_column display_value="1">8b89472ddbccc410e86f2a36ca9619c8</sp_column>
+        <sp_widget display_value="breadcrumbs">0fb269305b3212000d7ec7ad31f91ae2</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-20 14:05:50</sys_created_on>
-        <sys_id>d2a70441db884410e86f2a36ca96191c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2019-09-22 17:27:23</sys_created_on>
+        <sys_id>82f887e9dbccc410e86f2a36ca9619c9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
-        <sys_update_name>sp_instance_d2a70441db884410e86f2a36ca96191c</sys_update_name>
+        <sys_update_name>sp_instance_82f887e9dbccc410e86f2a36ca9619c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-20 14:05:50</sys_updated_on>
+        <sys_updated_on>2019-09-22 17:29:57</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters/>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=d2a70441db884410e86f2a36ca96191c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=82f887e9dbccc410e86f2a36ca9619c9"/>
 </record_update>

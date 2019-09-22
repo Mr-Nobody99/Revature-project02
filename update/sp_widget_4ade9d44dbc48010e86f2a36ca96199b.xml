@@ -6,7 +6,6 @@
 	var slider = document.getElementById('animated-header');
 	var menues = [];
 	var subMenues = [];
-	var links = [];
 	
   $scope.$watch('data.menu.items', function(){
 		$scope.visibleItems = [];
@@ -43,23 +42,15 @@
 	
 	//Custom animated slide-down header functionality.	
 	$scope.enterMenuLi = function(i, $event) {
-		//console.log('enter menu li');
-		//console.log($event);
-		subMenues[i].classList.replace("sub-menu", "active");
-		if(slider)
-			slider.classList.replace("slider", "start-slide");
+		subMenues[i].classList.replace("sub-menu", "active");//Display sub-menu
+		if(slider) slider.classList.replace("slider", "start-slide");//Display slider
+		for(var x in subMenues) {//Hide all other sub-menues
+			if(x != i)subMenues[x].classList.replace("active", "sub-menu");
+		}
 	}
 	
 	$scope.leaveMenuLi = function(i, $event){
-		//console.log('leave Menu Li');
-		//console.log($event);
 		var target = $event.toElement;
-		if(target.classList.contains("menu-item")){
-			for(var x in subMenues){
-				if(x == i)
-					subMenues[x].classList.replace("active", "sub-menu");
-			}
-		}
 		if(target.classList.contains("nav")){
 			slider.classList.replace("start-slide","slider");
 			subMenues[i].classList.replace("active", "sub-menu");
@@ -85,7 +76,6 @@ function makeSubMenues(items, slider) {
 			
 			for(var j in items[i].items) {
 				var current = items[i].items[j];
-				if(current.href) console.log(current);
 				
 				var label = items[i].items[j].label;
 				
@@ -163,14 +153,14 @@ function makeSubMenues(items, slider) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-17 17:53:42</sys_created_on>
         <sys_id>4ade9d44dbc48010e86f2a36ca96199b</sys_id>
-        <sys_mod_count>382</sys_mod_count>
+        <sys_mod_count>404</sys_mod_count>
         <sys_name>HC Header Menu</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sp_widget_4ade9d44dbc48010e86f2a36ca96199b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-19 19:32:49</sys_updated_on>
+        <sys_updated_on>2019-09-22 18:05:42</sys_updated_on>
         <template><![CDATA[<ul class="nav navbar-nav" aria-label="${Header menu}" role="menubar" ng-mouseenter="enterMenu($event)" ng-mouseleave="leaveMenu($event)">
   <div class="header-loader" ng-class="{'invisible': !loadingIndicator}">
     <div class="hidden-xs sp-loading-indicator la-sm">

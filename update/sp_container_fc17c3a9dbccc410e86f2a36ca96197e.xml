@@ -6,22 +6,22 @@
         <bootstrap_alt>false</bootstrap_alt>
         <class_name/>
         <container_class_name/>
-        <name>hc_home_page - Container 1</name>
+        <name>hc cat item - Container 1</name>
         <order>1</order>
-        <sp_page display_value="hc_home">f1cd1363dbf37300e86f2a36ca961915</sp_page>
+        <sp_page display_value="hc_cat_item">b8178b69dbccc410e86f2a36ca96195a</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-18 17:56:47</sys_created_on>
-        <sys_id>b9592a50db48c010e86f2a36ca961948</sys_id>
+        <sys_created_on>2019-09-22 17:19:06</sys_created_on>
+        <sys_id>fc17c3a9dbccc410e86f2a36ca96197e</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>hc_home_page - Container 1</sys_name>
+        <sys_name>hc cat item - Container 1</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
-        <sys_policy/>
+        <sys_policy>read</sys_policy>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
-        <sys_update_name>sp_container_b9592a50db48c010e86f2a36ca961948</sys_update_name>
+        <sys_update_name>sp_container_fc17c3a9dbccc410e86f2a36ca96197e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-19 23:07:50</sys_updated_on>
+        <sys_updated_on>2019-09-22 17:20:23</sys_updated_on>
         <title/>
         <width>container</width>
     </sp_container>

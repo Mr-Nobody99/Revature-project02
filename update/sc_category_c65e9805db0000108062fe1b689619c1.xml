@@ -16,7 +16,7 @@
         <order>0</order>
         <parent/>
         <roles/>
-        <sc_catalog display_value="Hillsborough County Main Catalog">827edc05db0000108062fe1b689619a0</sc_catalog>
+        <sc_catalog display_value="hc catalog">827edc05db0000108062fe1b689619a0</sc_catalog>
         <show_in_cms>false</show_in_cms>
         <sys_class_name>sc_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>

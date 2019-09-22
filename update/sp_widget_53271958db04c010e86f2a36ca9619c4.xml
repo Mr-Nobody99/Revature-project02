@@ -142,7 +142,7 @@ function addCommas(x) {
         <docs/>
         <field_list/>
         <has_preview>true</has_preview>
-        <id/>
+        <id>hc_tax_calculator</id>
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {
   
@@ -167,14 +167,14 @@ function calc() {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-18 11:58:47</sys_created_on>
         <sys_id>53271958db04c010e86f2a36ca9619c4</sys_id>
-        <sys_mod_count>860</sys_mod_count>
+        <sys_mod_count>861</sys_mod_count>
         <sys_name>Realestate Tax Calculator</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sp_widget_53271958db04c010e86f2a36ca9619c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-22 16:05:44</sys_updated_on>
+        <sys_updated_on>2019-09-22 17:26:10</sys_updated_on>
         <template><![CDATA[<div id="wrapper" class="panel panel-default">
   <div class="panel-heading">Real Estate Tax Calculator</div>
   <div id="container" class="panel-body">
