@@ -3,45 +3,55 @@
         <category>custom</category>
         <client_script><![CDATA[function() {
 	var c = this;
-	var slider = document.getElementById('myRange');
+	var slider = document.getElementById('slider');
 	var output = document.getElementById('value');
-	var result = document.getElementById('result');
-	result.innerHTML = c.answer = ' $' + calc(slider.value, c);
+	calc(slider.value, c);
 	
 	slider.oninput = function() {
 		output.value = this.value;
-		result.innerHTML = c.answer = ' $' + calc(this.value, c);
+		calc(this.value, c);
 	}
 	
 	output.value = slider.value;
 	output.oninput = function() {
 		slider.value = this.value;
-		result.innerHTML = c.answer = ' $' + calc(this.value, c);
+		calc(this.value, c);
 	}
 }
 
 function calc(value, c) {
-	var tax = 0.0152;
-	var rate = value * tax;
-	c.florida = ' $' + (value * 0.011).toFixed(2);
-	c.national = ' $' + (value * 0.01211).toFixed(2);
-	return rate.toFixed(2);
+	var hcTax = 0.0152;
+	var fTax = 0.011;
+	var nTax = 0.01211;
+	
+	var hcRate = value * hcTax;
+	var fRate = value * fTax;
+	var nRate = value * nTax;
+	
+	var hcResult = addCommas(hcRate.toFixed(2));
+	var fResult = addCommas(fRate.toFixed(2));
+	var nResult = addCommas(nRate.toFixed(2));
+	
+	c.hillsborough = hcResult;
+	c.florida = fResult;
+	c.national = nResult;
+}
+
+function addCommas(x) {
+	return ' $' + x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }]]></client_script>
         <controller_as>c</controller_as>
         <css>input{
   text-align:center;
 }
-.panel-heading{
-  text-align: center;
+
+#container{
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  grid-template-rows: auto;
 }
-#wrapper{
-  display:grid;
-  grid-template-columns: 1.5fr 1fr;
-  grid-template-rows: auto auto;
-  
-  //column-gap: 1vw;
-}
-#overview-panel{
+
+#info{
   grid-column: 1 / 2;
   grid-row: 1 / end;
 }
@@ -51,43 +61,21 @@ function calc(value, c) {
   grid-row: 1 / end;
 }
 
-//#slider-panel{
-  //grid-column: 2 / end;
-  //grid-row: 1 / 2;
-  
-  //display: grid;
-  //grid-template-columns: auto;
-  //grid-template-rows: repeat(2, min-content);
-//}
-//#results-panel{
-  //grid-column: 2 / end;
-  //grid-row: 2 / end;
-  
- 	//display:grid;
-  //grid-template-columns: 1fr;
-  //grid-template-rows: min-content 1fr;
-//}
-
-#slider-value{
+#slider-number{
   display: grid;
   grid-template-columns: min-content auto;
   grid-template-rows: min-content;
 }
 
-//#result-heading, #slider-heading{
-  //text-align: center;
-//}
-#rate-container, #tax-container{
+.panel-heading{
+  text-align: center;
+}
+
+.result-item{
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, min-content);
   text-align: center;
-}
-#result, .amount{
-  margin: 0;
-  padding: 0;
-  
-  font-size: 165%;
 }
 .result-label{
   margin: 0;
@@ -95,18 +83,19 @@ function calc(value, c) {
   
   font-size: 125%;
 }
+.result-value{
+  margin: 0;
+  padding: 0;
+  
+  font-size: 165%;
+}
 .result-sub{
   margin: 0;
   padding: 0;
   
   font-size: 75%;
 }
-//#slider-label{
-  //margin: 0;
-  //padding: 0;
-  
-  //text-align: center;
-//}
+
 .slider{
   width: 100%;
   height: 10px;
@@ -178,67 +167,70 @@ function calc() {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-18 11:58:47</sys_created_on>
         <sys_id>53271958db04c010e86f2a36ca9619c4</sys_id>
-        <sys_mod_count>758</sys_mod_count>
+        <sys_mod_count>860</sys_mod_count>
         <sys_name>Realestate Tax Calculator</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sp_widget_53271958db04c010e86f2a36ca9619c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-21 04:39:03</sys_updated_on>
-        <template><![CDATA[<div id="wrapper" class="well">
-  <div id="overview-panel" class="panel panel-info">
-    <div id="overview-heading" class="panel-heading">Overview of Florida Taxes</div>
-    <div class="panel-body">
-      <p class="well">
-      	Property taxes and property tax rates in Florida rank near or below the national average.
-      	The Sunshine State’s average effective property tax rate is 1.02%, slightly lower than the U.S. average.
-      </p>
-      	<div class="panel panel-default">
-        	<div class="panel-heading">Comparison</div>
-          <div class="panel-body">
-            <p>How your property taxes compare based on an assessed home value of<span class="text-success">{{c.answer}}</span></p>
-            <p class="well">
-              Hillsborough County: <span class="text-success">{{c.answer}}</span>
-            </p>
-            <p class="well">
-              Florida: <span class="text-warning">{{c.florida}}</span>
-            </p>
-            <p class="well">
-              National: <span class="text-danger">{{c.answer}}</span>
-            </p>
-          </div>
-      	</div>
+        <sys_updated_on>2019-09-22 16:05:44</sys_updated_on>
+        <template><![CDATA[<div id="wrapper" class="panel panel-default">
+  <div class="panel-heading">Real Estate Tax Calculator</div>
+  <div id="container" class="panel-body">
+    <div id="info" class="panel-group">
+      <div id="overview-panel" class="panel panel-primary">
+        <div class="panel-heading">Overview of Florida Taxes</div>
+        <div class="panel-body">
+          Property taxes and property tax rates in Florida rank near or below the national average.
+          The Sunshine State’s average effective property tax rate is 1.02%, slightly lower than the U.S. average.
+        </div>
+      </div>
+      <div id="comparison-panel" class="panel panel-info">
+        <div class="panel-heading">Comparison</div>
+        <div class="panel-body">
+          <p>How your property taxes compare based on an assessed home value of<span class="text-success">{{c.hillsborough}}</span></p>
+          <p class="well">
+            Hillsborough County: <span class="text-success">{{c.hillsborough}}</span>
+          </p>	
+          <p class="well">
+            Florida: <span class="text-warning">{{c.florida}}</span>
+          </p>
+          <p class="well">
+            National: <span class="text-danger">{{c.hillsborough}}</span>
+          </p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div id="calculator" class="panel-group">
-    <div id="slider-panel" class="panel panel-info">
-    	<p id="slider-heading" class="panel-heading">Assessed Home Value</p>
-    	<div class="panel-body">  
-      	<div class="well">
-        	<div id="slider-value">
-            <p class="dollar">$</p>
-            <input id="value" type="number" min="10000" max="10000000">
+    <div id="calculator" class="panel-group">
+      <div id="slider-panel" class="panel panel-warning">
+        <div class="panel-heading">Assessed Home Value</div>
+        <div class="panel-body">  
+          <div id="slider-container" class="well">
+            <div id="slider-number">
+              <p class="dollar">$</p>
+              <input id="value" type="number" min="10000" max="10000000">
+            </div>
+            <input id="slider" class="slider" type="range" min="10000" max="10000000" value="50">
           </div>
-          <input id="myRange" class="slider" type="range" min="10000" max="10000000" value="50">
-      	</div>
-    	</div>  
-  	</div>
-  	<div id="results-panel" class="panel panel-info">
-    <div id="result-heading" class="panel-heading"> Results </div>
-    <div class="panel-body">
-      <div id="rate-container" class="well">
-        	<h1 class="result-label">Property Taxes</h1>
-      		<p id="result" class="amount"></p>
-      		<p class="result-sub">(Annual)</p>
-      	</div>
-      <div id="tax-container" class="well">
-        	<h1 class="result-label">Average County Tax Rate</h1>
-      		<p class="amount">1.152%</p>
-      		<p class="result-sub">(Hillsborough County)</p>
-      	</div>
+        </div>  
+      </div>
+      <div id="results-panel" class="panel panel-success">
+        <div class="panel-heading"> Results </div>
+        <div class="panel-body">
+          <div class="result-item well">
+            <h1 class="result-label">Property Taxes</h1>
+            <p class="result-value">{{c.hillsborough}}</p>
+            <p class="result-sub">(Annual)</p>
+          </div>
+          <div class="result-item well">
+            <h1 class="result-label">Average County Tax Rate</h1>
+            <p class="result-value">1.152%</p>
+            <p class="result-sub">(Hillsborough County)</p>
+          </div>
+        </div>
+      </div> 
     </div>
-  </div> 
   </div>
 </div>]]></template>
     </sp_widget>
