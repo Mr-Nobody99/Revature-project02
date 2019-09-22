@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>hc_parks_main</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description>The main page for parks. Volunteering, KB articles, and reservations are in here.</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-22 19:33:35</sys_created_on>
+        <sys_id>9475272ddbc480100d1e2a36ca961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hc_parks_main</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sp_page_9475272ddbc480100d1e2a36ca961978</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-22 19:33:35</sys_updated_on>
+        <title>hc_parks_main</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=9475272ddbc480100d1e2a36ca961978"/>
+</record_update>
