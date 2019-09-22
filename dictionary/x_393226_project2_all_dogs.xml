@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="All Dogs " max_length="40" name="x_393226_project2_all_dogs" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Adopt Status" max_length="40" name="adopt_status" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
-                <element inactive_on_update="false" label="Not Available" sequence="1" value="not available"/>
-            </choice>
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Dog photo" max_length="40" name="dog_photo" type="user_image"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Found Near" max_length="32" name="found_near" reference="imp_location" type="reference"/>
@@ -12,10 +9,7 @@
         <element attributes="edge_encryption_enabled=true" label="Looks like Breed" max_length="40" name="u_breed" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Days in Shelter" max_length="40" name="u_days_in" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="u_gender" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
-                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
-            </choice>
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Kennel Number" max_length="40" name="u_kennel" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Pet ID" max_length="40" name="u_pet_id" type="integer"/>
