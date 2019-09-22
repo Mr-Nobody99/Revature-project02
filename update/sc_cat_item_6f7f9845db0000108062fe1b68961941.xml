@@ -14,7 +14,7 @@
         <entitlement_script/>
         <group/>
         <hide_sp>false</hide_sp>
-        <icon/>
+        <icon>f3ce9ba9db0880108062fe1b689619be</icon>
         <ignore_price>false</ignore_price>
         <image/>
         <list_price>0</list_price>
@@ -40,7 +40,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <picture/>
+        <picture>313f532ddb0880108062fe1b6896194e</picture>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=6f7f9845db0000108062fe1b68961941&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
@@ -57,14 +57,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-20 15:50:20</sys_created_on>
         <sys_id>6f7f9845db0000108062fe1b68961941</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Type of License</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sc_cat_item_6f7f9845db0000108062fe1b68961941</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-22 18:32:13</sys_updated_on>
+        <sys_updated_on>2019-09-22 19:04:34</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
