@@ -10,6 +10,7 @@
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
+        <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <group/>
         <hide_sp>false</hide_sp>
@@ -18,7 +19,7 @@
         <image/>
         <list_price>0</list_price>
         <location/>
-        <mandatory_attachment>true</mandatory_attachment>
+        <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
@@ -56,14 +57,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-20 15:50:20</sys_created_on>
         <sys_id>6f7f9845db0000108062fe1b68961941</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Type of License</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sc_cat_item_6f7f9845db0000108062fe1b68961941</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-22 19:04:34</sys_updated_on>
+        <sys_updated_on>2019-09-24 15:25:12</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
