@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
-        <css_variables>$brand-primary:#428bca;
-$body-bg:#efefef;
-$state-success-text:#5cb85c;
-$sp-homepage-bg:#fff;
-$sp-navbar-divider-color:#ffffff;
-$text-color:#717171;
-$sp-logo-margin-y:2px;
-$navbar-inverse-link-hover-color:#289fdb;
-$panel-bg:#fff;
-$brand-success:#5cb85c;
-$navbar-inverse-bg:#ffffff;
-$brand-warning:#f0ad4e;
-$brand-danger:#d9534f;
-$sp-tagline-color:#717171;
-$navbar-inverse-link-color:#000000;
-$brand-info:#5bc0de;
-$link-color:#428bca;
-$sp-logo-margin-x:5px;
-$btn-default-bg:#ffffff;
-$text-muted:#979797;
+        <css_variables>$brand-primary:#428bca;&#13;
+$body-bg:#efefef;&#13;
+$state-success-text:#5cb85c;&#13;
+$sp-homepage-bg:#fff;&#13;
+$sp-navbar-divider-color:#ffffff;&#13;
+$text-color:#717171;&#13;
+$sp-logo-margin-y:2px;&#13;
+$navbar-inverse-link-hover-color:#289fdb;&#13;
+$panel-bg:#fff;&#13;
+$brand-success:#5cb85c;&#13;
+$navbar-inverse-bg:#ffffff;&#13;
+$brand-warning:#f0ad4e;&#13;
+$brand-danger:#d9534f;&#13;
+$sp-tagline-color:#717171;&#13;
+$navbar-inverse-link-color:#000000;&#13;
+$brand-info:#5bc0de;&#13;
+$link-color:#428bca;&#13;
+$sp-logo-margin-x:5px;&#13;
+$btn-default-bg:#ffffff;&#13;
+$text-muted:#979797;&#13;
 </css_variables>
         <default>false</default>
         <homepage display_value="hc_home">f1cd1363dbf37300e86f2a36ca961915</homepage>
@@ -40,14 +40,14 @@ $text-muted:#979797;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-16 13:40:41</sys_created_on>
         <sys_id>f93b1bafdbb37300e86f2a36ca9619c3</sys_id>
-        <sys_mod_count>81</sys_mod_count>
+        <sys_mod_count>87</sys_mod_count>
         <sys_name>Hillsborough County</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sp_portal_f93b1bafdbb37300e86f2a36ca9619c3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-19 22:55:31</sys_updated_on>
+        <sys_updated_on>2019-09-25 01:59:05</sys_updated_on>
         <theme display_value="Hillsborough Theme">1fdc1cf7dbb77300e86f2a36ca961925</theme>
         <title>Hillsborough County</title>
         <ts_index_group/>
@@ -59,7 +59,6 @@ $text-muted:#979797;
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
-        <encryption_context/>
         <file_name>icon</file_name>
         <hash/>
         <image_height>400</image_height>
@@ -99,7 +98,6 @@ $text-muted:#979797;
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
-        <encryption_context/>
         <file_name>logo</file_name>
         <hash/>
         <image_height>70</image_height>
