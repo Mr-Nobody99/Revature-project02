@@ -57,47 +57,61 @@
     list-style: none;
 }
 
+#animated-header{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  
+  background-color: rgba(35, 35, 35, 0.25);
+}
+
 .slider{
 	height:0px;
   width: 100%;
   
-  background-color: rgba(25, 25, 25, 0.25);
   transition: height 0.75s;
 }
 
 .start-slide{
   height: 20vh;
   width: 100%;
- 	background-color: rgba(25, 25, 25, 0.25);
  	transition: height 1s;
 }
 
-.active{
-  
-}
-
 .sub-list{
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(4, auto);
-  
-  grid-column-gap:1vw;
-  grid-row-gap: 1vh;
   
   margin: 0;
-  padding: 10px;
+  padding: 0;
   
-  top: 5vw;
+  top: 0;
   left: 5vw;
   
-  position:absolute;
+  position:relative;
+  
+  ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+
+    grid-column-gap:1vw;
+    grid-row-gap: 1vh;
+  }
+  
 }
 .sub-menu{
   display: none;
 }
+.sub-menu-header{
+  margin: 1vh 1vw;
+  padding: 5px;
+  
+  color: lightblue;
+}
 .sub-menu-span{
+  display: block;
   cursor: pointer;
-  border-bottom: 5px solid lightblue;
+  //color: #5b4682;
+  border-bottom: 2px solid lightblue;
 }
 
 .navbar {
@@ -260,14 +274,14 @@ margin: 0px;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-17 17:47:44</sys_created_on>
         <sys_id>629d95c0dbc48010e86f2a36ca9619e3</sys_id>
-        <sys_mod_count>275</sys_mod_count>
+        <sys_mod_count>319</sys_mod_count>
         <sys_name>HC Header</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sp_header_footer_629d95c0dbc48010e86f2a36ca9619e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-19 23:03:20</sys_updated_on>
+        <sys_updated_on>2019-09-26 15:00:30</sys_updated_on>
         <template><![CDATA[<div>
   <nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}" role="navigation">
     <div ng-show="::!isViewNative" class="navbar-header">
