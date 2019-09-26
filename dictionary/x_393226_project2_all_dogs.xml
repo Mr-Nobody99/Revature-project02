@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="All Dogs " max_length="40" name="x_393226_project2_all_dogs" type="collection">
+    <element label="All Dogs" max_length="40" name="x_393226_project2_all_dogs" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Adopt Status" max_length="40" name="adopt_status" type="string">
             <choice/>
         </element>
