@@ -46,7 +46,7 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <request_method>submit</request_method>
-        <roles/>
+        <roles>snc_internal</roles>
         <sc_catalogs>827edc05db0000108062fe1b689619a0</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
