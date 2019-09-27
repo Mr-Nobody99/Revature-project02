@@ -52,7 +52,7 @@
         <update_guid_history>6e3ba38f60404010b248af015d39f484:1907462010</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="My pets">a06b238fdb404010e86f2a36ca96196a</sys_audit_delete>
+        <sys_audit_delete display_value="">a06b238fdb404010e86f2a36ca96196a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-27 11:48:38</sys_created_on>

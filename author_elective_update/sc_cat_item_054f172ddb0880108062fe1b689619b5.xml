@@ -136,7 +136,7 @@
         <update_guid_history>3d10c15222c00010b1107c57821d7cb9:661739679,e7bff0dec6800010cdeb136d061c33eb:349737557,9bbff0debe800010bbe446590898f5d4:661739679,b4b0c0fdc88880104ea78800d1d10d3d:-558996666,f8b0c0fdcc888010bdb9e1f126691523:661739679,7e1fb32d1b888010d9de5117f03e57c4:-1587753319,661fb32d1a88801067af3aeedf0d54ae:661739679,2fe577e1f1888010923ec67e378cdb2c:-1587753319,e3e577e16988801078b61b3f192a3d16:661739679,d54f1b2d6a0880108b4fee3ac519bf1c:-718658656,b520f72d8b488010a6823c2121069e94:801772372,e520f72d9048801032d49b3c6a44117d:106714084,d54f1b2d6a0880108b4fee3ac519bf1c:-718658656</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">0610c152dbc000108062fe1b689619cf</sys_audit_delete>
+        <sys_audit_delete display_value="Type of License">0610c152dbc000108062fe1b689619cf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-24 15:24:49</sys_created_on>
