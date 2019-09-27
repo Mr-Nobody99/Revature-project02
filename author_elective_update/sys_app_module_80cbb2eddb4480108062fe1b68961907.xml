@@ -66,7 +66,7 @@
         <update_guid_history>11bd6703f280401033108273a034fd49:0,ef3ac143c648001031d36295770ed86c:-788117368,7169fbb26e040010edfc8119fe187c5f:936167146,2619b7b2d704001063f11871c71dac0b:-1714688854,1e48bd163544001017e87a7a424ae24f:-1176670808,59edacb934440810fd2d79ecddc08dc7:-1176670808,9cd1f365f48008101eb9298a0ca3e70d:-1176670808,e3c9ebe9ae4008102b16571a0292c258:-1176670808,70ab9f2d2500081083ff953b01501c9a:-1176670808,96600fed9f8cc4106d74c1cb3d5e95ab:1352656160</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">fbbd6343db804010e86f2a36ca961928</sys_audit_delete>
+        <sys_audit_delete display_value="All Dogs">fbbd6343db804010e86f2a36ca961928</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-27 11:58:57</sys_created_on>

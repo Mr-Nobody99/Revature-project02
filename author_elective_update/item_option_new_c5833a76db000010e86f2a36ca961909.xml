@@ -146,7 +146,7 @@
         <update_guid_history>4ff476b6e80000105509cda06ae7afc7:2121080280,35b3b6762200001021e201fc19900d93:1223685630,fe937a76b3000010243222b116d56b8d:-1470429039</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">d6b57ef6db000010e86f2a36ca9619d5</sys_audit_delete>
+        <sys_audit_delete display_value="Mobile Phone">d6b57ef6db000010e86f2a36ca9619d5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-26 13:15:42</sys_created_on>

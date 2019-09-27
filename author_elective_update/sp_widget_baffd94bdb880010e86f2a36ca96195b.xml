@@ -451,7 +451,7 @@ function showStarRating() {
         <update_guid_history>dc32e1cb7a8800103116aa307e23b201:1669730161,fca1a5cb2988001051ffae8ba3cb45c0:765860459,c971658b91880010a24f1c26b98eab72:1334676302,3eff118b2f8800109c7d238aed576b5d:1660886450</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">15a56b0bdb404010e86f2a36ca9619bd</sys_audit_delete>
+        <sys_audit_delete display_value="Copy of KB Category Page">15a56b0bdb404010e86f2a36ca9619bd</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-27 11:23:34</sys_created_on>

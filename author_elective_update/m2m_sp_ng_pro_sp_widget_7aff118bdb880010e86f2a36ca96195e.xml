@@ -41,7 +41,7 @@
         <update_guid_history>baff118bdd88001053a50bc6d83b3e5f:199192626</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">91a5630bdb404010e86f2a36ca961918</sys_audit_delete>
+        <sys_audit_delete display_value="spKBCategoryService.Copy of KB Category Page">91a5630bdb404010e86f2a36ca961918</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-27 11:23:34</sys_created_on>
