@@ -51,7 +51,7 @@
         <update_guid_history>aa7fa00bcac40010212159eb95f727c4:2057191663</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">6c8f6487dbc40010e86f2a36ca961995</sys_audit_delete>
+        <sys_audit_delete display_value="hc_pet_adoption - Container 2">6c8f6487dbc40010e86f2a36ca961995</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-26 22:07:47</sys_created_on>

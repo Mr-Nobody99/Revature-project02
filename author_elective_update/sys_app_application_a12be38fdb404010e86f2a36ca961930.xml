@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-27 11:47:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a12be38fdb404010e86f2a36ca961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My pets</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sys_app_application_a12be38fdb404010e86f2a36ca961930</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 11:47:57</sys_updated_on>
+        <title>My pets</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_app_application_a12be38fdb404010e86f2a36ca961930</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles/><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-27 11:47:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a12be38fdb404010e86f2a36ca961930</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My pets</sys_name><sys_overrides/><sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package><sys_policy/><sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope><sys_update_name>sys_app_application_a12be38fdb404010e86f2a36ca961930</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-27 11:47:57</sys_updated_on><title>My pets</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1907462010</payload_hash>
+        <record_name>My pets</record_name>
+        <reverted_from/>
+        <source>396a0d03db480010e86f2a36ca96199d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-27 11:47:57</sys_created_on>
+        <sys_id>263ba38fdb404010e86f2a36ca961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d728c903d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 11:47:57</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>6e3ba38f60404010b248af015d39f484</update_guid>
+        <update_guid_history>6e3ba38f60404010b248af015d39f484:1907462010</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My pets">a06b238fdb404010e86f2a36ca96196a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-27 11:48:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>7608e74ae2d94fac9786f699bc71c610</sys_id>
+        <sys_metadata>a12be38fdb404010e86f2a36ca961930</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My pets</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_scope_delete display_value="">7b2dd6acb1604e11adaecc154cd04419</sys_scope_delete>
+        <sys_update_name>sys_app_application_a12be38fdb404010e86f2a36ca961930</sys_update_name>
+        <sys_update_version display_value="sys_app_application_a12be38fdb404010e86f2a36ca961930">263ba38fdb404010e86f2a36ca961985</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 11:48:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
