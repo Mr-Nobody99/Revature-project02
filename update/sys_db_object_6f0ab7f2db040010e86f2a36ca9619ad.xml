@@ -17,7 +17,7 @@
         <number_ref display_value="PET">031aef0fdb404010e86f2a36ca9619e2</number_ref>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class/>
+        <super_class display_value="Application File" name="sys_metadata">e6af0222e131330078502406b6333360</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
