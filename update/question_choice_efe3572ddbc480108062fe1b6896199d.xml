@@ -2,7 +2,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>100</order>
-        <question display_value="What is your dogs gender?">66d393e9dbc480108062fe1b6896198a</question>
+        <question display_value="Dog Gender:">66d393e9dbc480108062fe1b6896198a</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
