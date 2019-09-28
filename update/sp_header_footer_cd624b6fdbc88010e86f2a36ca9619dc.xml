@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>sample</category>
+        <client_script><![CDATA[function() {
+  // widget controller
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.hc-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+
+  align-items: center;
+  justify-items: center;
+
+  padding: 0 8vw;
+  min-height: 150px;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.footer-logo{
+  width: auto;
+  height: 50px;
+}
+.text-center{
+  margin: 10px 0;
+  text-align: center!important;
+}
+.hc-social-icon{
+  display: inline-block;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+.hc-social-icon:hover{
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.feedback:hover{
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>hc_footer</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>HC_Footer</name>
+        <option_schema>[{"hint":"Enter the URL for image to use as a background","name":"background_url","section":"other","default_value":"https://www.hillsboroughcounty.org/library/hillsborough/system/backgrounds/bgdarkblue.png","label":"Background URL","type":"string"},{"name":"footer_logo","section":"other","default_value":"https://www.hillsboroughcounty.org/library/hillsborough/system/logos/hc-logo-horizontal-rgb_drkbgrd.png?h=110&amp;w=334&amp;la=en&amp;hash=76FF6B941E21DC3E8CA268C14A145C5FDDBDA92B","label":"Footer Logo","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+ data.time = new GlideDateTime().getDisplayValue();
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-28 22:06:29</sys_created_on>
+        <sys_id>cd624b6fdbc88010e86f2a36ca9619dc</sys_id>
+        <sys_mod_count>97</sys_mod_count>
+        <sys_name>HC_Footer</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sp_header_footer_cd624b6fdbc88010e86f2a36ca9619dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-28 23:21:25</sys_updated_on>
+        <template><![CDATA[<div class="hc-footer" style="background-image: url({{c.options.background_url}})">
+  <div class="footer-logo-container">
+    <a href="?id={{::portal.homepage_dv}}"><img class="footer-logo" ng-src="{{c.options.footer_logo}}" /></a>
+    <p class="text-center">
+      601 E. Kennedy Blvd.
+      <br>
+      Tampa, FL 33602
+    </p>
+  </div>
+  <div>
+    List of links will go here. need to decide if should be made from a table dynamically, or if links should simply be hard coded.
+  </div>
+  <div class="footer-media-contiainer">
+    <div class="sm-icons">
+      <div class="hc-social-icon">
+        <a><img src="fb_icon.png" width="28" height="28"/></a>
+      </div>
+      <div class="hc-social-icon">
+        <a><img src="twitter_icon.png" width="28" height="28"/></a>
+      </div>
+      <div class="hc-social-icon">
+        <a><img src="yt_icon.png" width="28" height="28"/></a>
+      </div>
+      <div class="hc-social-icon">
+        <a><img src="insta_icon.png" width="28" height="28"/></a>
+      </div>
+      <div class="hc-social-icon">
+        <a> <img src="ln_icon.png" width="28" height="28"/></a>
+      </div>
+    </div>
+    <p class="text-center feedback">
+      <a style="color:#fff">Provide Website Feedback</a>
+    </p>
+  </div>
+</div>
+]]></template>
+    </sp_header_footer>
+</record_update>
