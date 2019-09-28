@@ -48,8 +48,9 @@
 	}
 	$scope.leaveSlide = function($event){
 		var active = document.querySelector('.active')
-		if(active) active.classList.replace("active", "sub-menu");
+		if(active) active.classList.replace("active", "sub-list");
 		if(slider) slider.classList.replace("start-slide","slider");
+		console.log(slider);
 	}
 }]]></client_script>
         <controller_as>c</controller_as>
@@ -58,11 +59,7 @@
 }
 
 #animated-header{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  
-  background-color: rgba(35, 35, 35, 0.25);
+  background-color: rgb(200, 200, 200);
 }
 
 .slider{
@@ -73,20 +70,23 @@
 }
 
 .start-slide{
-  height: 20vh;
+  height: 25vh;
   width: 100%;
+  
  	transition: height 1s;
 }
 
-.sub-list{
+.active{
   
   margin: 0;
   padding: 0;
   
-  top: 0;
   left: 5vw;
   
-  position:relative;
+  opacity: 100;
+  transition: 1s opacity;
+  -webkit-transition: 1s opacity;
+  position:absolute;
   
   ul{
     display: grid;
@@ -96,7 +96,24 @@
     grid-column-gap:1vw;
     grid-row-gap: 1vh;
   }
+}
+
+.sub-list{
   
+  margin: 0;
+  padding: 0;
+  
+  left: 5vw;
+  
+  opacity: 0;
+  transition: 0.5s opacity;
+  -webkit-transition: 0.5s opacity;
+  
+  position:absolute;
+  
+  ul{
+    display: none;
+  }
 }
 .sub-menu{
   display: none;
@@ -104,8 +121,6 @@
 .sub-menu-header{
   margin: 1vh 1vw;
   padding: 5px;
-  
-  color: lightblue;
 }
 .sub-menu-span{
   display: block;
@@ -274,14 +289,14 @@ margin: 0px;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-17 17:47:44</sys_created_on>
         <sys_id>629d95c0dbc48010e86f2a36ca9619e3</sys_id>
-        <sys_mod_count>319</sys_mod_count>
+        <sys_mod_count>379</sys_mod_count>
         <sys_name>HC Header</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sp_header_footer_629d95c0dbc48010e86f2a36ca9619e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-26 15:00:30</sys_updated_on>
+        <sys_updated_on>2019-09-27 14:44:34</sys_updated_on>
         <template><![CDATA[<div>
   <nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}" role="navigation">
     <div ng-show="::!isViewNative" class="navbar-header">

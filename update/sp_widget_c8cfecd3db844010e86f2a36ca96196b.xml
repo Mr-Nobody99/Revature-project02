@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+	
+	c.startAnim = function($event){
+		var element = $event.currentTarget;
+		//element.classList.add('hovered');
+		element.children[0].classList.add('hovered');
+		element.children[1].classList.add('hovered');
+		console.log(element);
+		console.log(element.children);
+	}
+	
+	c.endAnim = function($event){
+		var element = $event.currentTarget;
+		//element.classList.remove('hovered');
+		element.children[0].classList.remove('hovered');
+		element.children[1].classList.remove('hovered');
+		console.log(element);
+		console.log(element.children);
+	}
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.news-tile{
+  height: 400px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+.news-tile-link{
+  position: relative;
+}
+.news-tile-img{
+  width: 100%;
+  height: 200px;
+
+  overflow: hidden;
+
+  transition: height 0.2s ease-in-out;
+}
+
+a.hovered{
+  img{
+    height: 100px;
+  }
+}
+
+div.hovered{
+  div{
+    display: block;
+  }
+}
+
+.news-tile-body{  
+  width: 100%;
+  height: 200px;
+
+  padding: 0 15px;
+
+  background-color: #fff;
+
+  transition: height 0.2s ease-in-out;
+}
+
+.news-tile-title{
+  padding-top: .5em;
+  font-size: 1.4em;
+  color: #ff6f59;
+  font-weight: 700;
+  line-height: 1.4em;
+  margin-bottom: .2em;
+}
+
+.news-tile-text{
+  font-size: 1em;
+  color: #044169;
+  padding-bottom: 10px;
+  word-wrap: break-word;
+}
+.news-tile-extra-text{
+  display: none;
+  margin: 10px 0;
+  font-size: .9em;
+  color: #333333;
+}
+.news-tile-button{
+  margin: 10px 20%;
+  width: 60%;
+  display: none;
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+
+  a{
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 1em 0;
+  }
+
+  a:hover{
+    background-color: #ff6f59;
+    color: white;
+  }
+}
+.btn-secondary{
+  background-color: transparent;
+  color: #ff6f59;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid #ff6f59;
+}
+.btn-block{
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px)
+.col-sm-6 {
+    width: 50%;
+}
+
+/*#news-tile-container{
+display: grid;
+grid-template-columns: repeat(3, auto);
+grid-template-rows: min-content;
+
+justify-items: start;
+align-items: start;
+
+grid-column-gap: 2vw;
+grid-row-gap: 0;
+
+margin: 0;
+padding: 0;
+
+background-color: grey;
+}
+
+.animate{
+a.news-tile-link{
+transform: scaleY(0.5);
+}
+div.news-tile-slide{
+height: 10vh;
+}
+}
+.news-tile-container{
+display: inline-block;
+float: left;
+}
+
+.news-tile{
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: min-content min-content;
+
+margin: 0;
+padding: 0;
+
+background-color: white;
+}
+.news-tile-body{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(2, min-content);
+
+grid-column-gap: 0;
+grid-row-gap: 1vh;
+
+margin: 0;
+padding: 10px;
+}
+.news-tile-link{
+trasform-origin: top;
+height: auto;
+}
+.news-tile-img{
+width: 100%;
+height: auto;
+
+margin:0;
+padding:0;
+
+fliter: blur(50%);
+-webkit-filter: blur(50%);
+}
+.news-tile-title{
+margin:0;
+padding:0;
+}
+.news-tile-text{
+margin:0;
+padding:0;
+
+font-size: 85%;
+}
+.news-tile-slide{
+background-color: blue;
+}*/</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>hc_news</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>hc_news_tile</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	//id=kb_article&sys_id=d15de43187032100deddb882a2e3ec7d
+
+	data.articles = [];
+	
+	var instanceName = gs.getProperty("instance_name");
+	var articles = [];
+	var links = [];
+	var titles = [];
+	var bodies = [];
+	
+	var knowledge = new GlideRecord('kb_knowledge');
+	knowledge.addEncodedQuery('kb_category.labelSTARTSWITHnews');
+	knowledge.query();
+	
+	for(var x = 0; x < 3; x++){
+		if(knowledge.next()){
+			var id = knowledge.sys_id.toString();
+			articles.push(id);
+			var link = 'https://'+instanceName+'.service-now.com/Hillsborough%20County?id=kb_article&sys_id='+id;
+			links.push(link);
+			var title = knowledge.short_description.toString();
+			titles.push(title);
+			var body = knowledge.text.substring(0, 100).replace(/<p>|<\/p>/g,'');
+			bodies.push(body);
+		}
+	}
+	/*while(knowledge.next()){
+		var id = knowledge.sys_id.toString();
+		articles.push(id);
+		var link = 'https://'+instanceName+'.service-now.com/Hillsborough%20County?id=kb_article&sys_id='+id;
+		links.push(link);
+		var title = knowledge.short_description.toString();
+		titles.push(title);
+		var body = knowledge.text.substring(0, 150).replace(/<p>|<\/p>/g,'');
+		bodies.push(body);
+	}*/
+	
+	for(var i in articles){
+		var gr = new GlideRecord('sys_attachment');
+		gr.addQuery('table_sys_id', articles[i]);
+		gr.query();
+		
+		while(gr.next()){
+			var ga = new GlideSysAttachment();
+			var image = "data:" + gr.getValue('content_type') + ";base64," + ga.getContentBase64(gr);
+			data.articles.push({
+				image: image,
+				link: links[i],
+				title: titles[i],
+				text: bodies[i]
+			});
+		}
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-27 16:47:59</sys_created_on>
+        <sys_id>c8cfecd3db844010e86f2a36ca96196b</sys_id>
+        <sys_mod_count>561</sys_mod_count>
+        <sys_name>hc_news_tile</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sp_widget_c8cfecd3db844010e86f2a36ca96196b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-28 18:01:30</sys_updated_on>
+        <template><![CDATA[<div class="col-sm-6 col-md-4" ng-repeat="article in data.articles">
+  <div class="news-tile" ng-mouseenter="c.startAnim($event)" ng-mouseleave="c.endAnim($event)">
+    <a class="news-tile-link" ng-href="{{article.link}}">
+      <img class="news-tile-img" ng-src="{{article.image}}">
+    </a>
+    <div class="news-tile-body">
+      <div class="news-tile-title">{{article.title}}</div>
+      <div class="news-tile-text">{{article.text}}</div>
+      <div class="news-tile-extra-text">;alskdjf;lkasjdf;lkasjdf</div>
+      <div class="news-tile-button">
+        <a class="btn btn-secondary btn-block" ng-href="{{article.link}}">Continue Reading</a>
+      </div>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

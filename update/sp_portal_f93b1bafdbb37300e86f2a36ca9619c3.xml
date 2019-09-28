@@ -25,7 +25,7 @@ $text-muted:#979797;&#13;
         <homepage display_value="hc_home">f1cd1363dbf37300e86f2a36ca961915</homepage>
         <icon>138a5bdcdbc8c010e86f2a36ca96195d</icon>
         <kb_knowledge_base/>
-        <kb_knowledge_page display_value="kb_article_view">a60dcc050be432004ce28ffe15673a54</kb_knowledge_page>
+        <kb_knowledge_page/>
         <login_page/>
         <logo>22dc9befdbb37300e86f2a36ca961990</logo>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
@@ -40,14 +40,14 @@ $text-muted:#979797;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-16 13:40:41</sys_created_on>
         <sys_id>f93b1bafdbb37300e86f2a36ca9619c3</sys_id>
-        <sys_mod_count>90</sys_mod_count>
+        <sys_mod_count>91</sys_mod_count>
         <sys_name>Hillsborough County</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sp_portal_f93b1bafdbb37300e86f2a36ca9619c3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-27 11:33:45</sys_updated_on>
+        <sys_updated_on>2019-09-27 14:48:12</sys_updated_on>
         <theme display_value="Hillsborough Theme">1fdc1cf7dbb77300e86f2a36ca961925</theme>
         <title>Hillsborough County</title>
         <ts_index_group/>

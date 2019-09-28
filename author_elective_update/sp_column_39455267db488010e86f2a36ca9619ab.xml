@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">bd455267db488010e86f2a36ca9619a9</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-28 18:49:23</sys_created_on>
+        <sys_id>39455267db488010e86f2a36ca9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sp_column_39455267db488010e86f2a36ca9619ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-28 18:49:23</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sp_column_39455267db488010e86f2a36ca9619ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">bd455267db488010e86f2a36ca9619a9</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-28 18:49:23</sys_created_on><sys_id>39455267db488010e86f2a36ca9619ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package><sys_policy/><sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope><sys_update_name>sp_column_39455267db488010e86f2a36ca9619ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-28 18:49:23</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1188251286</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>a099bb43dbc04010e86f2a36ca9619e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-28 18:49:23</sys_created_on>
+        <sys_id>3d455267db488010e86f2a36ca9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d7934c1c70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-28 18:49:23</sys_updated_on>
+        <type>Column</type>
+        <update_guid>7545526748488010c76d088bd10fdfac</update_guid>
+        <update_guid_history>7545526748488010c76d088bd10fdfac:1188251286</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">b6659e27db488010e86f2a36ca961971</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-28 18:50:00</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>32c623b442a24d4296b3cccfd5e18b41</sys_id>
+        <sys_metadata>39455267db488010e86f2a36ca9619ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_scope_delete display_value="">7b2dd6acb1604e11adaecc154cd04419</sys_scope_delete>
+        <sys_update_name>sp_column_39455267db488010e86f2a36ca9619ab</sys_update_name>
+        <sys_update_version display_value="sp_column_39455267db488010e86f2a36ca9619ab">3d455267db488010e86f2a36ca9619ac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-28 18:50:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
