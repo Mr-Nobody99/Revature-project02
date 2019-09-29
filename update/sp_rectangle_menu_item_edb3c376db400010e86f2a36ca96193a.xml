@@ -15,26 +15,26 @@
         <label>Lost &amp; Found animals</label>
         <order>100</order>
         <record_script/>
-        <sc_cat_item/>
-        <sc_category/>
+        <sc_cat_item display_value="Found a Dog?">f984fff3db0884108062fe1b689619b2</sc_cat_item>
+        <sc_category display_value="Lost and Found">97733b33db0884108062fe1b68961986</sc_category>
         <short_description/>
-        <sp_page display_value="hc_home">f1cd1363dbf37300e86f2a36ca961915</sp_page>
+        <sp_page display_value="hc_lost_found">a172cfffdb0484108062fe1b68961905</sp_page>
         <sp_rectangle_menu/>
         <sp_rectangle_menu_item display_value="Animals &amp; Pets">021dfc70dbcc0410e86f2a36ca9619a5</sp_rectangle_menu_item>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-26 14:17:16</sys_created_on>
         <sys_id>edb3c376db400010e86f2a36ca96193a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Lost &amp; Found animals</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_edb3c376db400010e86f2a36ca96193a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-26 14:17:16</sys_updated_on>
+        <sys_updated_on>2019-09-29 21:22:08</sys_updated_on>
         <table/>
-        <type>page</type>
+        <type>sc_category</type>
         <url/>
         <url_target/>
     </sp_rectangle_menu_item>

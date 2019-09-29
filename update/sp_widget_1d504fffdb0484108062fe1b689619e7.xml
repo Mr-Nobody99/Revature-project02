@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+  /* widget controller */
+  var c = this;
+	
+	
+	c.adopt = function(pet, i){
+		c.data.action = 'adopt';
+		c.data.i = i;
+		c.server.update().then(function(){
+			c.data.action = undefined;
+			c.data.i = undefined;
+		});
+		c.server.refresh();
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>h2{
+  font-size: 120%;
+  margin:0;
+  padding:0;
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+.pet{
+  align-self: stretch;
+  max-width: 500px;
+}
+.pet-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  
+  grid-row-gap: 0.5vh;
+}
+
+.pet-photo{
+  float: left;
+  
+  width:45%;
+  height:auto;
+  
+  margin: 0 10px 0 0;
+}
+
+.panel-heading{
+  max-height: 50px;
+  text-align:center;
+}
+
+.btn{
+  max-height: 50px;
+  grid-column: 1 / end;
+  grid-row: 3 / end;
+}
+
+#bio{
+  grid-column: 1 / end;
+  grid-row: 1 / 3;
+  
+  padding: 10px;
+  margin: 0;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>hc_lost_pets</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	
+	data.pets = [];
+	
+	var gr = new GlideRecord('x_393226_project2_pets');
+	gr.query();
+	
+	while(gr.next()){
+		data.pets.push({
+			id: gr.sys_id.toString(),
+			name: gr.name.toString(),
+			bio: gr.bio.toString(),
+			photo: gr.photo.getDisplayValue().toString(),
+			adopted: gr.adopted.getDisplayValue()
+		});
+	}
+	
+	if(input) {
+		if(input.action == 'adopt'){
+			var grPet = new GlideRecord('x_393226_project2_pets');
+			var petID = data.pets[input.i].id;
+			grPet.get(petID);
+			grPet.adopted = true;
+			grPet.update();
+		}
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 16:36:00</sys_created_on>
+        <sys_id>1d504fffdb0484108062fe1b689619e7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>hc_lost_pets</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sp_widget_1d504fffdb0484108062fe1b689619e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 16:36:13</sys_updated_on>
+        <template><![CDATA[<div class="wrapper panel-group">
+  <div ng-repeat="pet in data.pets" ng-if="pet.adopted == 'false'" class="pet panel panel-default">
+    <div class="panel-heading"><h2>{{pet.name}}</h2></div>
+    <div class="pet-container panel-body">
+      <div id="bio" class="well">
+        <img ng-src="{{pet.photo}}" class="pet-photo">
+        <p>{{pet.bio}}</p>
+      </div>
+      <button class="btn btn-primary" ng-click="c.adopt(pet, $index)"><h2>Adopt</h2></button>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

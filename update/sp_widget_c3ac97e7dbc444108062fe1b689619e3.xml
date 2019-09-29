@@ -9,11 +9,10 @@
 	})
 }]]></client_script>
         <controller_as>c</controller_as>
-        <css>#body{
-  padding: 10px;
-  background-color: #5acfec;
-  margin-bottom: 10px;
-  border-radius: 5px;
+        <css>#body{&#13;
+  padding: 10px;&#13;
+  margin-bottom: 10px;&#13;
+  border-radius: 5px;&#13;
 }</css>
         <data_table>sp_instance</data_table>
         <demo_data>{"options": &#13;
@@ -39,14 +38,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-29 00:01:19</sys_created_on>
         <sys_id>c3ac97e7dbc444108062fe1b689619e3</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>hc_HTML</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sp_widget_c3ac97e7dbc444108062fe1b689619e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-29 01:02:25</sys_updated_on>
+        <sys_updated_on>2019-09-29 16:17:58</sys_updated_on>
         <template><![CDATA[<div id="body">
 <div>
     <div ng-if="!c.options.html" class="panel panel-default">

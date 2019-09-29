@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>home</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item display_value="Report Road Maintenance Issue">e497e266db000010e86f2a36ca961934</sc_cat_item>
+        <sc_category display_value="Dog license">c65e9805db0000108062fe1b689619c1</sc_category>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">74fde6bfdbc084108062fe1b68961975</sp_column>
+        <sp_page display_value="hc_cat_item">b8178b69dbccc410e86f2a36ca96195a</sp_page>
+        <sp_widget display_value="hc Icon Link">0b58c35edb480010e86f2a36ca96197c</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 15:15:41</sys_created_on>
+        <sys_id>70fde6bfdbc084108062fe1b68961973</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Road Maintenance</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sp_instance_link_70fde6bfdbc084108062fe1b68961973</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 15:38:13</sys_updated_on>
+        <title>Road Maintenance</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=70fde6bfdbc084108062fe1b68961973"/>
+</record_update>
