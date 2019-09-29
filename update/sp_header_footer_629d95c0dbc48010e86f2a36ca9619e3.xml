@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
     <sp_header_footer action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[function($rootScope, $scope, snRecordWatcher, spUtil, $location, $uibModal, cabrillo, $timeout, $window) {
-  $scope.collapse = function() {
+        <client_script><![CDATA[function($rootScope, $scope, $element, snRecordWatcher, spUtil, $location, $uibModal, cabrillo, $timeout, $window) {
+	
+	var c = this;
+	c.page = $scope.page.id;
+
+	$scope.collapse = function() {
 		$rootScope.$emit('sp-navbar-collapse');
 	}
-	
+
 	if (cabrillo.isNative()) {
 		if ($window.innerWidth < 767) {
 			$scope.isViewNative = true;
@@ -25,7 +29,6 @@
 		}
 	});
 
-
 	function isXSScreenSize() {
 		return $window.matchMedia('(max-width: 767px)').matches;
 	}
@@ -39,10 +42,10 @@
 
 		return false;
 	};
-	
+
 	//Custom header functionality.
 	var slider = document.getElementById('animated-header');
-	
+
 	$scope.keepSlide = function($event) {
 		if(slider) slider.classList.replace("slider", "start-slide");
 	}
@@ -50,45 +53,65 @@
 		var active = document.querySelector('.active')
 		if(active) active.classList.replace("active", "sub-list");
 		if(slider) slider.classList.replace("start-slide","slider");
-		console.log(slider);
 	}
 }]]></client_script>
         <controller_as>c</controller_as>
         <css>ul{
-    list-style: none;
+  list-style: none;
 }
 
 #animated-header{
   display:block!important;
   background-color: rgb(200, 200, 200);
 }
+.sub-header{
+  min-height: 200px;
+
+  margin:0;
+  padding: 30px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  h1{
+    position: absolute;
+    left: 15%;
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 700;
+    //text-shadow: 1px 1px #000;
+    color: #fff;
+    margin-top:0;
+  }
+}
 
 .slider{
-	height:0px;
+  height:0px;
   width: 100%;
-  
+
   transition: height 0.75s;
 }
 
 .start-slide{
   height: 25vh;
   width: 100%;
-  
- 	transition: height 1s;
+
+  transition: height 1s;
 }
 
 .active{
-  
+
   margin: 0;
   padding: 0;
-  
+
   left: 5vw;
-  
+
   opacity: 100;
   transition: 1s opacity;
   -webkit-transition: 1s opacity;
   position:absolute;
-  
+
   ul{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -100,18 +123,18 @@
 }
 
 .sub-list{
-  
+
   margin: 0;
   padding: 0;
-  
+
   left: 5vw;
-  
+
   opacity: 0;
   transition: 0.5s opacity;
   -webkit-transition: 0.5s opacity;
-  
+
   position:absolute;
-  
+
   ul{
     display: none;
   }
@@ -193,7 +216,7 @@ nav {
   margin-bottom: 0px;
   border-radius: 0px;
 
- .toggle-dropdown {
+  .toggle-dropdown {
     height: 60px;
   }
 
@@ -205,7 +228,7 @@ nav {
 }
 
 .navbar-nav {
-margin: 0px;
+  margin: 0px;
 }
 
 // PRB711244: Dropdown menu is scrollable when too many items
@@ -216,11 +239,11 @@ margin: 0px;
 }
 
 .is-native {
- .scrollable-dropdown {
-  max-height: 100vh;
-  overflow: scroll;
-  height: auto;
-	}
+  .scrollable-dropdown {
+    max-height: 100vh;
+    overflow: scroll;
+    height: auto;
+  }
 }
 
 
@@ -276,13 +299,19 @@ margin: 0px;
 	});
 }]]></link>
         <name>HC Header</name>
-        <option_schema/>
+        <option_schema>[{"name":"sub_header_background","section":"other","default_value":"https://www.hillsboroughcounty.org/library/hillsborough/system/backgrounds/bgaqua.png","label":"sub header background","type":"string"}]</option_schema>
         <public>false</public>
         <roles/>
         <script><![CDATA[(function() {
 	
+	data.messages = [];
+	
 	var menu = $sp.getValue("sp_rectangle_menu");
 	data.menu = $sp.getWidgetFromInstance(menu);
+	
+	if(input){
+		console.log('has input');
+	}
 	
 })();]]></script>
         <servicenow>false</servicenow>
@@ -290,22 +319,22 @@ margin: 0px;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-17 17:47:44</sys_created_on>
         <sys_id>629d95c0dbc48010e86f2a36ca9619e3</sys_id>
-        <sys_mod_count>380</sys_mod_count>
+        <sys_mod_count>527</sys_mod_count>
         <sys_name>HC Header</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sp_header_footer_629d95c0dbc48010e86f2a36ca9619e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-29 01:06:00</sys_updated_on>
+        <sys_updated_on>2019-09-29 21:39:53</sys_updated_on>
         <template><![CDATA[<div>
   <nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}" role="navigation">
     <div ng-show="::!isViewNative" class="navbar-header">
       <a class="navbar-brand" ng-if="::!portal.logo" href="?id={{::portal.homepage_dv}}"><span ng-bind="portal.title"></span></a>
       <a class="navbar-brand navbar-brand-logo" ng-if="::portal.logo" href="?id={{::portal.homepage_dv}}" ng-click="collapse()" aria-label="${Go to homepage}">
-      <img ng-src="{{::portal.logo}}" />
-    </a>
-      
+        <img ng-src="{{::portal.logo}}" />
+      </a>
+
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sp-nav-bar">
         <span class="sr-only">${Toggle navigation}</span>
         <span class="icon-bar"></span>
@@ -313,13 +342,14 @@ margin: 0px;
         <span class="icon-bar"></span>
       </button>
     </div>
-    
+
     <div sp-navbar-toggle="" class="collapse navbar-right" id="sp-nav-bar">
-    	<!--Include The Menu -->
-     	<sp-widget widget="::data.menu"></sp-widget>
+      <!--Include The Menu -->
+      <sp-widget widget="::data.menu"></sp-widget>
     </div>
   </nav>
   <div id="animated-header" class="slider" ng-mouseenter="enterSlide($event)" ng-mouseleave="leaveSlide($event)"></div>
+  <div ng-hide="page.id == 'hc_home'" class="sub-header" style="background-image: url({{c.options.sub_header_background}});"><h1>Sub Heading goes here</h1></div>
 </div>]]></template>
     </sp_header_footer>
 </record_update>

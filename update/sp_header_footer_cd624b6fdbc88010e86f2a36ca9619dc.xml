@@ -53,7 +53,7 @@
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
         <name>HC_Footer</name>
-        <option_schema>[{"hint":"Enter the URL for image to use as a background","name":"background_url","section":"other","default_value":"https://www.hillsboroughcounty.org/library/hillsborough/system/backgrounds/bgdarkblue.png","label":"Background URL","type":"string"},{"name":"footer_logo","section":"other","default_value":"https://www.hillsboroughcounty.org/library/hillsborough/system/logos/hc-logo-horizontal-rgb_drkbgrd.png?h=110&amp;w=334&amp;la=en&amp;hash=76FF6B941E21DC3E8CA268C14A145C5FDDBDA92B","label":"Footer Logo","type":"string"}]</option_schema>
+        <option_schema>[{"hint":"Enter the URL for image to use as a background","name":"background_url","section":"other","default_value":"https://www.hillsboroughcounty.org/library/hillsborough/system/backgrounds/bgdarkblue.png","label":"Background URL","type":"string"},{"name":"footer_logo","section":"other","default_value":"https://www.hillsboroughcounty.org/library/hillsborough/system/logos/hc-logo-horizontal-rgb_drkbgrd.png?h=110&amp;w=334&amp;la=en&amp;hash=76FF6B941E21DC3E8CA268C14A145C5FDDBDA92B","label":"Footer Logo","type":"string"},{"hint":"Link to facebook page","name":"facebook_link","section":"other","default_value":"https://www.facebook.com/HillsboroughFL/","label":"Facebook link","type":"string"},{"name":"twitter_link","section":"other","default_value":"https://twitter.com/HillsboroughFL","label":"twitter link","type":"string"},{"name":"youtube_link","section":"other","default_value":"https://www.youtube.com/user/HillsboroughCounty","label":"youtube link","type":"string"},{"name":"instagram_link","section":"other","default_value":"https://www.instagram.com/hillsboroughfl/","label":"instagram link","type":"string"}]</option_schema>
         <public>false</public>
         <roles/>
         <script><![CDATA[(function() {
@@ -64,14 +64,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-28 22:06:29</sys_created_on>
         <sys_id>cd624b6fdbc88010e86f2a36ca9619dc</sys_id>
-        <sys_mod_count>97</sys_mod_count>
+        <sys_mod_count>101</sys_mod_count>
         <sys_name>HC_Footer</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sp_header_footer_cd624b6fdbc88010e86f2a36ca9619dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-28 23:21:25</sys_updated_on>
+        <sys_updated_on>2019-09-29 14:01:30</sys_updated_on>
         <template><![CDATA[<div class="hc-footer" style="background-image: url({{c.options.background_url}})">
   <div class="footer-logo-container">
     <a href="?id={{::portal.homepage_dv}}"><img class="footer-logo" ng-src="{{c.options.footer_logo}}" /></a>
@@ -87,16 +87,16 @@
   <div class="footer-media-contiainer">
     <div class="sm-icons">
       <div class="hc-social-icon">
-        <a><img src="fb_icon.png" width="28" height="28"/></a>
+        <a ng-href="{{c.options.facebook_link}}"><img src="fb_icon.png" width="28" height="28"/></a>
       </div>
       <div class="hc-social-icon">
-        <a><img src="twitter_icon.png" width="28" height="28"/></a>
+        <a ng-href="{{c.options.twitter_link}}"><img src="twitter_icon.png" width="28" height="28"/></a>
       </div>
       <div class="hc-social-icon">
-        <a><img src="yt_icon.png" width="28" height="28"/></a>
+        <a ng-href="{{c.options.youtube_link}}"><img src="yt_icon.png" width="28" height="28"/></a>
       </div>
       <div class="hc-social-icon">
-        <a><img src="insta_icon.png" width="28" height="28"/></a>
+        <a ng-href="{{c.options.youtube_link}}"><img src="insta_icon.png" width="28" height="28"/></a>
       </div>
       <div class="hc-social-icon">
         <a> <img src="ln_icon.png" width="28" height="28"/></a>
