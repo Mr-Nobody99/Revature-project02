@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="events" max_length="40" name="x_393226_project2_events" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Center" mandatory="true" max_length="32" name="center" reference="x_393226_project2_centers" type="reference"/>
+        <element label="Description" mandatory="true" max_length="100" name="description" type="string"/>
+        <element label="Name" mandatory="true" max_length="25" name="name" type="string"/>
+        <element label="When" mandatory="true" max_length="40" name="when" type="glide_date_time"/>
+        <index name="index">
+            <element name="center"/>
+        </index>
+    </element>
+</database>

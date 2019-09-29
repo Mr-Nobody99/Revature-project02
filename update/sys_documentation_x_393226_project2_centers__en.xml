@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="centers" language="en" table="x_393226_project2_centers">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>centers</label>
+            <language>en</language>
+            <name>x_393226_project2_centers</name>
+            <plural>centers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-28 00:58:37</sys_created_on>
+            <sys_id>74302613db0400100d1e2a36ca96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>centers</sys_name>
+            <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+            <sys_update_name>sys_documentation_x_393226_project2_centers__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-28 00:58:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
