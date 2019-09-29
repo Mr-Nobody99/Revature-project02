@@ -447,7 +447,7 @@ function showStarRating() {
         <update_guid_history>f0c7d14307880010abd4a4d1cd485e3a:-49210096,406619cfdb4800107dbdff012c0c81c5:-1251724984,774699cf6e4800100e4ebbdc88dbbbe7:1660886450</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="HC KB Category Page">50fb9147db880010e86f2a36ca9619e2</sys_audit_delete>
+        <sys_audit_delete display_value="">50fb9147db880010e86f2a36ca9619e2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-27 01:21:56</sys_created_on>

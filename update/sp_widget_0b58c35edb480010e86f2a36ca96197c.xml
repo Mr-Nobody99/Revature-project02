@@ -7,25 +7,26 @@
         <controller_as>c</controller_as>
         <css>.hc-link-icon{
   display:block;
-  border: 3px solid orange;
+  border: 3px solid #ff6f59;
   border-radius: 5px;
   text-align: center;
-  
-  width: 15vw;
+  margin-botom: 10px;
+  width: 36.33vw;
+  height: 12vw;
   padding: 3vh;
   
-  h2{
+  h1{
     margin: 0;
     padding: 0;
-    color:orange;
+    color:#ff6f59;
   }
 }
 
 .hc-link-icon:hover{
-  background-color: orange;
+  background-color: #ff6f59;
   color: white;
   
-  h2{color:white;}
+  h1{color:white;}
 }</css>
         <data_table>sp_instance_link</data_table>
         <demo_data/>
@@ -51,19 +52,19 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-25 01:20:10</sys_created_on>
         <sys_id>0b58c35edb480010e86f2a36ca96197c</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>64</sys_mod_count>
         <sys_name>hc Icon Link</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sp_widget_0b58c35edb480010e86f2a36ca96197c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-25 01:56:54</sys_updated_on>
+        <sys_updated_on>2019-09-29 01:17:42</sys_updated_on>
         <template><![CDATA[<div class="hc-link-icon">
   <a ng-href="{{::data.href}}" class="top_icon">
-    <h2>
+    <h1>
       {{::options.title}}
-    </h2>
+    </h1>
   </a>
 </div>]]></template>
     </sp_widget>

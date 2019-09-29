@@ -12,31 +12,31 @@
         <kb_article/>
         <kb_category/>
         <kb_topic/>
-        <label>Train</label>
+        <label>City Transportaion Passes</label>
         <order>100</order>
         <record_script/>
-        <sc_cat_item/>
-        <sc_category/>
+        <sc_cat_item display_value="All types of transporation passes">aeefb517dbc004108062fe1b68961917</sc_cat_item>
+        <sc_category display_value="City Transporation Passes">62eb3513dbc004108062fe1b6896191d</sc_category>
         <short_description/>
-        <sp_page display_value="hc_home">f1cd1363dbf37300e86f2a36ca961915</sp_page>
+        <sp_page display_value="hc_cat_item">b8178b69dbccc410e86f2a36ca96195a</sp_page>
         <sp_rectangle_menu/>
         <sp_rectangle_menu_item display_value="Roads &amp; Commuting">0ff9a62adb000010e86f2a36ca961915</sp_rectangle_menu_item>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-26 14:14:50</sys_created_on>
-        <sys_id>ed334736db400010e86f2a36ca961919</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Train</sys_name>
+        <sys_created_on>2019-09-27 23:40:07</sys_created_on>
+        <sys_id>d80e4adfdbc004108062fe1b689619f0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>City Transportaion Passes</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
-        <sys_update_name>sp_rectangle_menu_item_ed334736db400010e86f2a36ca961919</sys_update_name>
+        <sys_update_name>sp_rectangle_menu_item_d80e4adfdbc004108062fe1b689619f0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-26 14:14:50</sys_updated_on>
+        <sys_updated_on>2019-09-28 00:29:17</sys_updated_on>
         <table/>
-        <type>page</type>
+        <type>sc_cat_item</type>
         <url/>
         <url_target/>
     </sp_rectangle_menu_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=ed334736db400010e86f2a36ca961919"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d80e4adfdbc004108062fe1b689619f0"/>
 </record_update>

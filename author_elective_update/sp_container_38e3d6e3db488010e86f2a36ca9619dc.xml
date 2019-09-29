@@ -51,7 +51,7 @@
         <update_guid_history>38e3d6e35448801020bac7d99da8e9dd:41846774</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="hc_home_page - Container 2">65759267db488010e86f2a36ca9619ef</sys_audit_delete>
+        <sys_audit_delete display_value="">65759267db488010e86f2a36ca9619ef</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-28 18:50:11</sys_created_on>
