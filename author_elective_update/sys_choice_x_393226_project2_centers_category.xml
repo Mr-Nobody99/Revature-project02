@@ -6,7 +6,7 @@
             <sys_class_name/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on/>
-            <sys_id>f7534fc0db100010e86f2a36ca961943</sys_id>
+            <sys_id>e68934d4dbd40010e86f2a36ca9619b6</sys_id>
             <sys_mod_count/>
             <sys_name>category</sys_name>
             <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
@@ -14,7 +14,7 @@
             <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
             <sys_update_name>sys_choice_x_393226_project2_centers_category</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-30 15:32:57</sys_updated_on>
+            <sys_updated_on>2019-09-30 20:08:59</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
     <sys_update_version action="INSERT_OR_UPDATE">
@@ -24,32 +24,32 @@
         <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
         <instance_name>dev82960</instance_name>
         <name>sys_choice_x_393226_project2_centers_category</name>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="category" table="x_393226_project2_centers" version="3"><sys_choice_set action="DELETE"><element>category</element><name>x_393226_project2_centers</name><sys_class_name/><sys_created_by>admin</sys_created_by><sys_created_on/><sys_id>f7534fc0db100010e86f2a36ca961943</sys_id><sys_mod_count/><sys_name>category</sys_name><sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package><sys_policy/><sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope><sys_update_name>sys_choice_x_393226_project2_centers_category</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-30 15:32:57</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="category" table="x_393226_project2_centers" version="3"><sys_choice_set action="DELETE"><element>category</element><name>x_393226_project2_centers</name><sys_class_name/><sys_created_by>admin</sys_created_by><sys_created_on/><sys_id>e68934d4dbd40010e86f2a36ca9619b6</sys_id><sys_mod_count/><sys_name>category</sys_name><sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package><sys_policy/><sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope><sys_update_name>sys_choice_x_393226_project2_centers_category</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-30 20:08:59</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
         <payload_hash>-801984488</payload_hash>
         <record_name>x_393226_project2_centers.category</record_name>
         <reverted_from/>
-        <source>37538b00db100010e86f2a36ca961971</source>
+        <source>e5993c94db940010e86f2a36ca96195c</source>
         <source_table>sys_update_set</source_table>
         <state>previous</state>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-30 15:32:57</sys_created_on>
-        <sys_id>2b7bfb0cdbd00010e86f2a36ca961959</sys_id>
+        <sys_created_on>2019-09-30 20:08:59</sys_created_on>
+        <sys_id>7aaab41cdbd40010e86f2a36ca96190a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>16d82cda2a00000001</sys_recorded_at>
+        <sys_recorded_at>16d83ca57cc0000001</sys_recorded_at>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-30 15:32:57</sys_updated_on>
+        <sys_updated_on>2019-09-30 20:08:59</sys_updated_on>
         <type>Choice list</type>
-        <update_guid>637bfb0c54d00010017986894188a959</update_guid>
-        <update_guid_history>637bfb0c54d00010017986894188a959:-801984488,a37bfb0c6cd0001010da4b52e70ab456:1740413060,ab7bfb0cb3d0001026226845ec550253:1693115468,e37bfb0ce2d00010fd8646d96d609a51:1445921918,563303c0f710001014629f701199d651:-801984488,1a3303c0641000101f88ebe720621d4e:1740413060,923303c0df1000106fe0288adfa7774c:1693115468,963303c0d310001074eea7157e907c3d:1445921918,88a76000ef100410e5614dd4b43acd63:-801984488,08a76000b41004106bc9d4fb50baa560:1740413060,8ca760008a100410a2ce30aafc7fb85d:1693115468,04a760004a10041059e89402b942555b:1445921918,81126008a5dcc010bce9314f400bb114:-801984488,0d12600895dcc010d3954bb0cf2d0104:1740413060,451260080cdcc010fe6298564ccb4a02:1693115468,8d12200804dcc0103958b7780ed257ff:1445921918,134608c8d25cc0104a9c18865446a1d5:-991499550</update_guid_history>
+        <update_guid>b2aab41c01d40010c6314fde287a300a</update_guid>
+        <update_guid_history>b2aab41c01d40010c6314fde287a300a:-801984488,f2aab41c51d4001065ed21299456bf07:1740413060,faaab41c8cd40010bf01e8d809885d04:1693115468,36aab41cc9d40010afd32d7904988702:1445921918,cb59f09472d400108e99ad7e948be9f6:-801984488,4759f09434d40010a564b565a4cc49e7:1740413060,4f59f0941ed40010a6fce627e3d5dae4:1693115468,8759f0949ed400107674784a451870e2:1445921918,637bfb0c54d00010017986894188a959:-801984488,a37bfb0c6cd0001010da4b52e70ab456:1740413060,ab7bfb0cb3d0001026226845ec550253:1693115468,e37bfb0ce2d00010fd8646d96d609a51:1445921918,563303c0f710001014629f701199d651:-801984488,1a3303c0641000101f88ebe720621d4e:1740413060,923303c0df1000106fe0288adfa7774c:1693115468,963303c0d310001074eea7157e907c3d:1445921918,88a76000ef100410e5614dd4b43acd63:-801984488,08a76000b41004106bc9d4fb50baa560:1740413060,8ca760008a100410a2ce30aafc7fb85d:1693115468,04a760004a10041059e89402b942555b:1445921918,81126008a5dcc010bce9314f400bb114:-801984488,0d12600895dcc010d3954bb0cf2d0104:1740413060,451260080cdcc010fe6298564ccb4a02:1693115468,8d12200804dcc0103958b7780ed257ff:1445921918,134608c8d25cc0104a9c18865446a1d5:-991499550</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
         <sys_audit_delete/>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-30 15:34:04</sys_created_on>
+        <sys_created_on>2019-09-30 20:10:16</sys_created_on>
         <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
-        <sys_id>67abfb4cdbd00010e86f2a36ca9619e3</sys_id>
-        <sys_metadata>67abfb4cdbd00010e86f2a36ca9619e3</sys_metadata>
+        <sys_id>69da345cdbd40010e86f2a36ca9619a6</sys_id>
+        <sys_metadata>69da345cdbd40010e86f2a36ca9619a6</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>category</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
@@ -58,8 +58,8 @@
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_scope_delete display_value="">7b2dd6acb1604e11adaecc154cd04419</sys_scope_delete>
         <sys_update_name>sys_choice_x_393226_project2_centers_category</sys_update_name>
-        <sys_update_version display_value="sys_choice_x_393226_project2_centers_category">2b7bfb0cdbd00010e86f2a36ca961959</sys_update_version>
+        <sys_update_version display_value="sys_choice_x_393226_project2_centers_category">7aaab41cdbd40010e86f2a36ca96190a</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-30 15:34:04</sys_updated_on>
+        <sys_updated_on>2019-09-30 20:10:16</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

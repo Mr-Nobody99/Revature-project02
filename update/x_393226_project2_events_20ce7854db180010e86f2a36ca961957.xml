@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_393226_project2_events">
     <x_393226_project2_events action="INSERT_OR_UPDATE">
-        <center display_value="">7dd54458db140010e86f2a36ca961962</center>
-        <description>The thing where the stuff happens</description>
+        <center display_value="asdfkljasdf">bf9e7854db180010e86f2a36ca961984</center>
+        <description>asdfasdf</description>
         <example/>
-        <name>Presentation</name>
+        <name>asdfasdf</name>
         <sys_class_name>x_393226_project2_events</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-30 16:18:29</sys_created_on>
-        <sys_id>6ae58458db140010e86f2a36ca9619e4</sys_id>
+        <sys_created_on>2019-09-30 20:27:08</sys_created_on>
+        <sys_id>20ce7854db180010e86f2a36ca961957</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Presentation</sys_name>
+        <sys_name>asdfasdf</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
-        <sys_update_name>x_393226_project2_events_6ae58458db140010e86f2a36ca9619e4</sys_update_name>
+        <sys_update_name>x_393226_project2_events_20ce7854db180010e86f2a36ca961957</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-30 16:18:29</sys_updated_on>
-        <when>2019-09-30 19:11:58</when>
+        <sys_updated_on>2019-09-30 20:27:08</sys_updated_on>
+        <when>2019-10-02 20:27:02</when>
     </x_393226_project2_events>
 </record_update>

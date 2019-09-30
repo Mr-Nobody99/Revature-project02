@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>u_imp_tmpl_x_393226_project2_parks</name>
+        <name>x_393226_project2_events</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-30 13:43:22</sys_created_on>
-        <sys_id>48fbbf8cdbd00010e86f2a36ca96194f</sys_id>
+        <sys_created_on>2019-09-28 00:27:04</sys_created_on>
+        <sys_id>c1da345cdbd40010e86f2a36ca961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>u_imp_tmpl_x_393226_project2_parks</sys_name>
+        <sys_name>x_393226_project2_events</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
-        <sys_update_name>ua_table_licensing_config_48fbbf8cdbd00010e86f2a36ca96194f</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_c1da345cdbd40010e86f2a36ca961933</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-30 13:43:22</sys_updated_on>
+        <sys_updated_on>2019-09-28 00:27:04</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
