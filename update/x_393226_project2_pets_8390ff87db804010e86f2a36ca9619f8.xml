@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="x_393226_project2_pets">
     <x_393226_project2_pets action="INSERT_OR_UPDATE">
-        <adopted>false</adopted>
+        <adopted>true</adopted>
         <bio>This is a dog, he is a good boy.</bio>
-        <name>Tim</name>
+        <name>Dog 1</name>
         <number>PET0001001</number>
-        <photo>ae0d3340db140010e86f2a36ca961941</photo>
+        <photo>7eb0b747db804010e86f2a36ca961914</photo>
         <sys_class_name>x_393226_project2_pets</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-27 12:11:50</sys_created_on>
         <sys_id>8390ff87db804010e86f2a36ca9619f8</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Tim</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Dog 1</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>x_393226_project2_pets_8390ff87db804010e86f2a36ca9619f8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-30 15:39:42</sys_updated_on>
+        <sys_updated_on>2019-09-29 16:34:41</sys_updated_on>
     </x_393226_project2_pets>
 </record_update>
