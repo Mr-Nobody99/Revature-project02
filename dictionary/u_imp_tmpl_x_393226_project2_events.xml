@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 393226 Project2 Events" max_length="40" name="u_imp_tmpl_x_393226_project2_events" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Center" label="Center" max_length="32" name="u_center" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="100" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Example" label="Example" max_length="40" name="u_example" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="25" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=When" label="When" max_length="40" name="u_when" type="glide_date_time"/>
+    </element>
+</database>

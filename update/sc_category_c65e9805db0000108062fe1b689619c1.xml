@@ -39,6 +39,7 @@
         <compressed>true</compressed>
         <content_type>image/gif</content_type>
         <file_name>icon</file_name>
+        <hash/>
         <image_height>175</image_height>
         <image_width>175</image_width>
         <size_bytes>13375</size_bytes>

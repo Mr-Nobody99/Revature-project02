@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>ignore</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="u_imp_tmpl_x_393226_project2_events">2052e744db900010e86f2a36ca9619b6</map>
+        <reference_value_field/>
+        <source_field>u_center</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>u_imp_tmpl_x_393226_project2_events</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-30 13:42:59</sys_created_on>
+        <sys_id>6c526b44db900010e86f2a36ca9619d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_center</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_update_name>sys_transform_entry_6c526b44db900010e86f2a36ca9619d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 13:42:59</sys_updated_on>
+        <target_field>center</target_field>
+        <target_table>x_393226_project2_events</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</application>
+        <file_path/>
+        <instance_id>3cce5ae0dbc577c03050ac44d49619c1</instance_id>
+        <instance_name>dev82960</instance_name>
+        <name>sys_transform_entry_6c526b44db900010e86f2a36ca9619d5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;ignore&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="u_imp_tmpl_x_393226_project2_events"&gt;2052e744db900010e86f2a36ca9619b6&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_center&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;u_imp_tmpl_x_393226_project2_events&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-30 13:42:59&lt;/sys_created_on&gt;&lt;sys_id&gt;6c526b44db900010e86f2a36ca9619d5&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_center&lt;/sys_name&gt;&lt;sys_package display_value="Project2" source="x_393226_project2"&gt;bb4a5b6fdb737300e86f2a36ca9619b2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project2"&gt;bb4a5b6fdb737300e86f2a36ca9619b2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_6c526b44db900010e86f2a36ca9619d5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-09-30 13:42:59&lt;/sys_updated_on&gt;&lt;target_field&gt;center&lt;/target_field&gt;&lt;target_table&gt;x_393226_project2_events&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1535496964</payload_hash>
+        <record_name>u_center</record_name>
+        <reverted_from/>
+        <source>35ebfb8cdbd00010e86f2a36ca9619ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-30 15:34:57</sys_created_on>
+        <sys_id>7cfbff8cdbd00010e86f2a36ca96195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d82cf77320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 15:34:57</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>a4526b44e79000102b66571a580a2dd8</update_guid>
+        <update_guid_history>a4526b44e79000102b66571a580a2dd8:-1535496964,5e8bbf0c29d000100952a4a4670bd0ae:-1860428133,a4526b44e79000102b66571a580a2dd8:-1535496964,a8526b44909000102f0f3817d3f89ed6:-914793070</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-30 16:18:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>72fc5f9baac5428aade93f7123050319</sys_id>
+        <sys_metadata>6c526b44db900010e86f2a36ca9619d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_center</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_scope_delete display_value="">7b2dd6acb1604e11adaecc154cd04419</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_6c526b44db900010e86f2a36ca9619d5</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_6c526b44db900010e86f2a36ca9619d5">7cfbff8cdbd00010e86f2a36ca96195f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-30 16:18:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
