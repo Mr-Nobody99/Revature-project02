@@ -10,23 +10,28 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="2">e54beefbdbc084108062fe1b68961938</sp_column>
+        <sp_column display_value="1">4c0f8340db500010e86f2a36ca9619a0</sp_column>
         <sp_widget display_value="hc_news_tile">c8cfecd3db844010e86f2a36ca96196b</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-29 15:04:12</sys_created_on>
-        <sys_id>b05b223fdbc084108062fe1b6896190b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2019-09-30 12:18:42</sys_created_on>
+        <sys_id>4a0f8b40db500010e86f2a36ca9619ae</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
-        <sys_update_name>sp_instance_b05b223fdbc084108062fe1b6896190b</sys_update_name>
+        <sys_update_name>sp_instance_4a0f8b40db500010e86f2a36ca9619ae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-29 15:04:12</sys_updated_on>
+        <sys_updated_on>2019-09-30 12:30:52</sys_updated_on>
         <title/>
         <url/>
-        <widget_parameters/>
+        <widget_parameters><![CDATA[{
+	"knowledge_category_name": {
+		"value": "animal protection",
+		"displayValue": "animal protection"
+	}
+}]]></widget_parameters>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=b05b223fdbc084108062fe1b6896190b"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=4a0f8b40db500010e86f2a36ca9619ae"/>
 </record_update>

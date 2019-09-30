@@ -282,7 +282,7 @@ background-color: blue;
   
 }]]></link>
         <name>hc_news_tile</name>
-        <option_schema/>
+        <option_schema>[{"name":"knowledge_category_name","section":"other","default_value":"news","label":"Knowledge Category Name","type":"string"}]</option_schema>
         <public>false</public>
         <roles/>
         <script><![CDATA[(function() {
@@ -299,7 +299,7 @@ background-color: blue;
 	var dates = [];
 	
 	var knowledge = new GlideRecord('kb_knowledge');
-	knowledge.addEncodedQuery('kb_category.labelSTARTSWITHnews');
+	knowledge.addEncodedQuery('kb_category.labelSTARTSWITH'+options.knowledge_category_name);
 	knowledge.query();
 	
 	for(var x = 0; x < 3; x++){
@@ -315,10 +315,10 @@ background-color: blue;
 			var title = knowledge.short_description.toString();
 			titles.push(title);
 			
-			var body = knowledge.text.substring(0, 100).replace(/<p>|<\/p>/g,'');
+			var body = knowledge.text.getHTMLValue(200).replace(/<\/?[^>]+(>|$)/g, "").substring(0, 100);//.replace(/<p>|<\/p>|/g,'');
 			bodies.push(body);
 			
-			var extra = knowledge.text.substring(101, 200).replace(/<p>|<\/p>/g,'');
+			var extra = knowledge.text.getHTMLValue(200).replace(/<\/?[^>]+(>|$)/g, "").substring(101, 200);//.replace(/<p>|<\/p>/g,'');
 			extras.push(extra);
 			
 			var date= knowledge.sys_created_on.toString();
@@ -355,14 +355,14 @@ background-color: blue;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-27 16:47:59</sys_created_on>
         <sys_id>c8cfecd3db844010e86f2a36ca96196b</sys_id>
-        <sys_mod_count>724</sys_mod_count>
+        <sys_mod_count>740</sys_mod_count>
         <sys_name>hc_news_tile</sys_name>
         <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
         <sys_update_name>sp_widget_c8cfecd3db844010e86f2a36ca96196b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-29 15:28:36</sys_updated_on>
+        <sys_updated_on>2019-09-30 12:47:08</sys_updated_on>
         <template><![CDATA[<div class="col-sm-6 col-md-4" ng-repeat="article in data.articles">
   <div class="news-tile" ng-mouseenter="c.startAnim($event)" ng-mouseleave="c.endAnim($event)">
     <a class="news-tile-link" ng-href="{{article.link}}">
