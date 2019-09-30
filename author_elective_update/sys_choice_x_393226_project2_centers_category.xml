@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="category" table="x_393226_project2_centers" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Community Center</label>
+            <language>en</language>
+            <name>x_393226_project2_centers</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 23:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2cf4e404dbd884108062fe1b68961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 23:55:35</sys_updated_on>
+            <value>Community Center</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>REC Center</label>
+            <language>en</language>
+            <name>x_393226_project2_centers</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 23:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6cf4e404dbd884108062fe1b68961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 23:55:35</sys_updated_on>
+            <value>REC Center</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Senior Center</label>
+            <language>en</language>
+            <name>x_393226_project2_centers</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 23:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>acf4e404dbd884108062fe1b68961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 23:55:35</sys_updated_on>
+            <value>Senior Center</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Teen Center</label>
+            <language>en</language>
+            <name>x_393226_project2_centers</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 23:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ecf4e404dbd884108062fe1b68961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 23:55:35</sys_updated_on>
+            <value>Teen Center</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_393226_project2_centers</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-29 23:55:35</sys_created_on>
+            <sys_id>e0f4e404dbd884108062fe1b68961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+            <sys_update_name>sys_choice_x_393226_project2_centers_category</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-29 23:55:35</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</application>
+        <file_path/>
+        <instance_id>b695a58cdbc43b0052dd2f17d49619ef</instance_id>
+        <instance_name>dev74125</instance_name>
+        <name>sys_choice_x_393226_project2_centers_category</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="category" table="x_393226_project2_centers" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Community Center</label><language>en</language><name>x_393226_project2_centers</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-29 23:55:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2cf4e404dbd884108062fe1b68961971</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-29 23:55:35</sys_updated_on><value>Community Center</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>REC Center</label><language>en</language><name>x_393226_project2_centers</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-29 23:55:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6cf4e404dbd884108062fe1b68961971</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-29 23:55:35</sys_updated_on><value>REC Center</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Senior Center</label><language>en</language><name>x_393226_project2_centers</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-29 23:55:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>acf4e404dbd884108062fe1b68961971</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-29 23:55:35</sys_updated_on><value>Senior Center</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Teen Center</label><language>en</language><name>x_393226_project2_centers</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-29 23:55:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ecf4e404dbd884108062fe1b68961971</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-29 23:55:35</sys_updated_on><value>Teen Center</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>category</element><name>x_393226_project2_centers</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-29 23:55:35</sys_created_on><sys_id>e0f4e404dbd884108062fe1b68961972</sys_id><sys_mod_count>0</sys_mod_count><sys_name>category</sys_name><sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package><sys_policy/><sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope><sys_update_name>sys_choice_x_393226_project2_centers_category</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-29 23:55:35</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-991499550</payload_hash>
+        <record_name>centers.Category</record_name>
+        <reverted_from/>
+        <source>bd496512db2333008062fe1b68961923</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2019-08-30 21:53:22</sys_created_on>
+        <sys_id>32f4e804dbd884108062fe1b689619ba</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>16ce484c4500000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Choice list</type>
+        <update_guid>fef4e8040bd884102e54a738acad00b9</update_guid>
+        <update_guid_history>fef4e8040bd884102e54a738acad00b9:-991499550</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-29 23:55:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>e0f4e404dbd884108062fe1b68961972</sys_id>
+        <sys_metadata>e0f4e404dbd884108062fe1b68961972</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="Project2" source="x_393226_project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project2">bb4a5b6fdb737300e86f2a36ca9619b2</sys_scope>
+        <sys_scope_delete display_value="">7b2dd6acb1604e11adaecc154cd04419</sys_scope_delete>
+        <sys_update_name>sys_choice_x_393226_project2_centers_category</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_393226_project2_centers_category">32f4e804dbd884108062fe1b689619ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-29 23:55:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -10,6 +10,7 @@
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
+        <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <group/>
         <hide_sp>false</hide_sp>
@@ -45,7 +46,7 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <request_method>submit</request_method>
-        <roles/>
+        <roles>snc_internal</roles>
         <sc_catalogs>827edc05db0000108062fe1b689619a0</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
