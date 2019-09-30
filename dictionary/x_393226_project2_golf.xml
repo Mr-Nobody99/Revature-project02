@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="golf" max_length="40" name="x_393226_project2_golf" type="collection">
+        <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Location" max_length="100" name="location" type="string"/>
+        <element label="name" max_length="100" name="name" type="string"/>
+    </element>
+</database>
