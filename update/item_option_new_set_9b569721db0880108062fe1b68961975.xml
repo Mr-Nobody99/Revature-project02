@@ -8,6 +8,7 @@
         <name/>
         <order>600</order>
         <read_roles/>
+        <set_attributes/>
         <sys_class_name>item_option_new_set</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-22 18:26:44</sys_created_on>
